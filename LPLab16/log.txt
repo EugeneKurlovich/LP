@@ -1,0 +1,2111 @@
+
+----- Протокол ------ Дата: 31.10.2016 15:10:38 -------- 
+
+
+----- Параметры --------
+-in: in.txt
+-out: out.txt
+-log: log.txt
+-IT 1
+-LT 1
+-R 1
+
+
+---- Исходные данные ------
+Количество символов: 553
+Проигнорировано:   4
+Количество строк:  34
+
+
+---------------Таблица лексем--------------------------------
+Лексема № строки № табл. лексем № табл. идент. 
+t       0        0              -              
+f       0        1              -              
+i       0        2              0              
+(       0        3              -              
+t       0        4              -              
+i       0        5              1              
+,       0        6              -              
+t       0        7              -              
+i       0        8              2              
+)       0        9              -              
+{       1        10             -              
+d       2        11             -              
+t       2        12             -              
+i       2        13             3              
+;       2        14             -              
+i       3        15             3              
+=       3        16             -              
+i       3        17             1              
+*       3        18             -              
+(       3        19             -              
+i       3        20             1              
++       3        21             -              
+i       3        22             2              
+)       3        23             -              
+;       3        24             -              
+r       4        25             -              
+i       4        26             3              
+;       4        27             -              
+}       5        28             -              
+;       5        29             -              
+t       6        30             -              
+f       6        31             -              
+i       6        32             -              
+(       6        33             -              
+t       6        34             -              
+i       6        35             5              
+,       6        36             -              
+t       6        37             -              
+i       6        38             6              
+)       6        39             -              
+{       7        40             -              
+d       8        41             -              
+t       8        42             -              
+i       8        43             7              
+;       8        44             -              
+t       9        45             -              
+f       9        46             -              
+a       9        47             -              
+(       9        48             -              
+t       9        49             -              
+i       9        50             8              
+,       9        51             -              
+t       9        52             -              
+i       9        53             9              
+,       9        54             -              
+t       9        55             -              
+i       9        56             10             
+)       9        57             -              
+;       9        58             -              
+i       10       59             7              
+=       10       60             -              
+a       10       61             -              
+(       10       62             -              
+i       10       63             5              
+,       10       64             -              
+l       10       65             11             
+,       10       66             -              
+l       10       67             12             
+)       10       68             -              
++       10       69             -              
+i       10       70             6              
+;       10       71             -              
+r       11       72             -              
+i       11       73             7              
+;       11       74             -              
+}       12       75             -              
+;       12       76             -              
+m       13       77             -              
+{       14       78             -              
+d       15       79             -              
+t       15       80             -              
+i       15       81             13             
+;       15       82             -              
+d       16       83             -              
+t       16       84             -              
+i       16       85             14             
+;       16       86             -              
+d       17       87             -              
+t       17       88             -              
+i       17       89             15             
+;       17       90             -              
+d       18       91             -              
+t       18       92             -              
+i       18       93             16             
+;       18       94             -              
+d       19       95             -              
+t       19       96             -              
+i       19       97             17             
+;       19       98             -              
+d       20       99             -              
+t       20       100            -              
+i       20       101            18             
+;       20       102            -              
+t       21       103            -              
+f       21       104            -              
+s       21       105            -              
+(       21       106            -              
+t       21       107            -              
+i       21       108            19             
+)       21       109            -              
+;       21       110            -              
+i       22       111            13             
+=       22       112            -              
+l       22       113            -              
+;       22       114            -              
+i       23       115            14             
+=       23       116            -              
+l       23       117            -              
+;       23       118            -              
+i       24       119            16             
+=       24       120            -              
+l       24       121            -              
+;       24       122            -              
+i       25       123            17             
+=       25       124            -              
+l       25       125            -              
+;       25       126            -              
+i       26       127            15             
+=       26       128            -              
+i       26       129            0              
+(       26       130            -              
+i       26       131            13             
+,       26       132            -              
+i       26       133            14             
+)       26       134            -              
+;       26       135            -              
+i       27       136            18             
+=       27       137            -              
+i       27       138            4              
+(       27       139            -              
+i       27       140            16             
+,       27       141            -              
+i       27       142            17             
+)       27       143            -              
+;       27       144            -              
+p       28       145            -              
+l       28       146            20             
+;       28       147            -              
+p       29       148            -              
+i       29       149            15             
+;       29       150            -              
+p       30       151            -              
+i       30       152            18             
+;       30       153            -              
+p       31       154            -              
+s       31       155            -              
+(       31       156            -              
+i       31       157            18             
+)       31       158            -              
+;       31       159            -              
+r       32       160            -              
+l       32       161            21             
+;       32       162            -              
+}       33       163            -              
+;       33       164            -              
+
+
+      
+---------------Таблица идентификаторов-------------------------------
+Имя идент Тип даных Тип идент. № табл. лекс.  Значение
+fi        integer   Function   2              0
+xfi       integer   Parameter  5              0
+yfi       integer   Parameter  8              0
+zfi       integer   Variable   13             0
+fs        string    Function   32             NULL
+afs       string    Parameter  35             NULL
+bfs       string    Parameter  38             NULL
+cfs       string    Variable   43             NULL
+xfs       string    Variable   50             NULL
+pfs       integer   Variable   53             0
+nfs       integer   Variable   56             0
+ltrl      integer   Literal    65             1
+ltrl      integer   Literal    67             3
+x         integer   Variable   81             1
+y         integer   Variable   85             5
+z         integer   Variable   89             0
+sa        string    Variable   93             '1234567890'
+sb        string    Variable   97             '1234567890'
+sc        string    Variable   101            NULL
+p         string    Variable   108            NULL
+ltrl      string    Literal    146            'primer'
+ltrl      integer   Literal    161            0
+
+
+
+---------Промежуточный код------------------------------
+00 tfi(ti,ti)
+01 {
+02 dti;
+03 i=i*(i+i);
+04 ri;
+05 };
+06 tfi(ti,ti)
+07 {
+08 dti;
+09 tfa(ti,ti,ti);
+10 i=a(i,l,l)+i;
+11 ri;
+12 };
+13 m
+14 {
+15 dti;
+16 dti;
+17 dti;
+18 dti;
+19 dti;
+20 dti;
+21 tfs(ti);
+22 i=l;
+23 i=l;
+24 i=l;
+25 i=l;
+26 i=i(i,i);
+27 i=i(i,i);
+28 pl;
+29 pi;
+30 pi;
+31 ps(i);
+32 rl;
+33 };
+Шаг :Правило             Входная лента                 Стек                
+0   :S->tfi(F){N}S       tfi(ti,ti){dti;i=i*(i+i);     S$                  
+1   : SAVESTATE:          1
+1   :                    tfi(ti,ti){dti;i=i*(i+i);     tfi(F){N}S$         
+2   :                    fi(ti,ti){dti;i=i*(i+i);r     fi(F){N}S$          
+3   :                    i(ti,ti){dti;i=i*(i+i);ri     i(F){N}S$           
+4   :                    (ti,ti){dti;i=i*(i+i);ri;     (F){N}S$            
+5   :                    ti,ti){dti;i=i*(i+i);ri;}     F){N}S$             
+6   :F->ti               ti,ti){dti;i=i*(i+i);ri;}     F){N}S$             
+7   : SAVESTATE:          2
+7   :                    ti,ti){dti;i=i*(i+i);ri;}     ti){N}S$            
+8   :                    i,ti){dti;i=i*(i+i);ri;};     i){N}S$             
+9   :                    ,ti){dti;i=i*(i+i);ri;};t     ){N}S$              
+10  : TS_NOK/NS_NORULECHIN
+10  : RESSTATE            
+10  :                    ti,ti){dti;i=i*(i+i);ri;}     F){N}S$             
+11  :F->ti,F             ti,ti){dti;i=i*(i+i);ri;}     F){N}S$             
+12  : SAVESTATE:          2
+12  :                    ti,ti){dti;i=i*(i+i);ri;}     ti,F){N}S$          
+13  :                    i,ti){dti;i=i*(i+i);ri;};     i,F){N}S$           
+14  :                    ,ti){dti;i=i*(i+i);ri;};t     ,F){N}S$            
+15  :                    ti){dti;i=i*(i+i);ri;};tf     F){N}S$             
+16  :F->ti               ti){dti;i=i*(i+i);ri;};tf     F){N}S$             
+17  : SAVESTATE:          3
+17  :                    ti){dti;i=i*(i+i);ri;};tf     ti){N}S$            
+18  :                    i){dti;i=i*(i+i);ri;};tfi     i){N}S$             
+19  :                    ){dti;i=i*(i+i);ri;};tfi(     ){N}S$              
+20  :                    {dti;i=i*(i+i);ri;};tfi(t     {N}S$               
+21  :                    dti;i=i*(i+i);ri;};tfi(ti     N}S$                
+22  :N->dti;N            dti;i=i*(i+i);ri;};tfi(ti     N}S$                
+23  : SAVESTATE:          4
+23  :                    dti;i=i*(i+i);ri;};tfi(ti     dti;N}S$            
+24  :                    ti;i=i*(i+i);ri;};tfi(ti,     ti;N}S$             
+25  :                    i;i=i*(i+i);ri;};tfi(ti,t     i;N}S$              
+26  :                    ;i=i*(i+i);ri;};tfi(ti,ti     ;N}S$               
+27  :                    i=i*(i+i);ri;};tfi(ti,ti)     N}S$                
+28  :N->i=E;N            i=i*(i+i);ri;};tfi(ti,ti)     N}S$                
+29  : SAVESTATE:          5
+29  :                    i=i*(i+i);ri;};tfi(ti,ti)     i=E;N}S$            
+30  :                    =i*(i+i);ri;};tfi(ti,ti){     =E;N}S$             
+31  :                    i*(i+i);ri;};tfi(ti,ti){d     E;N}S$              
+32  :E->i                i*(i+i);ri;};tfi(ti,ti){d     E;N}S$              
+33  : SAVESTATE:          6
+33  :                    i*(i+i);ri;};tfi(ti,ti){d     i;N}S$              
+34  :                    *(i+i);ri;};tfi(ti,ti){dt     ;N}S$               
+35  : TS_NOK/NS_NORULECHIN
+35  : RESSTATE            
+35  :                    i*(i+i);ri;};tfi(ti,ti){d     E;N}S$              
+36  :E->iM               i*(i+i);ri;};tfi(ti,ti){d     E;N}S$              
+37  : SAVESTATE:          6
+37  :                    i*(i+i);ri;};tfi(ti,ti){d     iM;N}S$             
+38  :                    *(i+i);ri;};tfi(ti,ti){dt     M;N}S$              
+39  :M->*E               *(i+i);ri;};tfi(ti,ti){dt     M;N}S$              
+40  : SAVESTATE:          7
+40  :                    *(i+i);ri;};tfi(ti,ti){dt     *E;N}S$             
+41  :                    (i+i);ri;};tfi(ti,ti){dti     E;N}S$              
+42  :E->(E)              (i+i);ri;};tfi(ti,ti){dti     E;N}S$              
+43  : SAVESTATE:          8
+43  :                    (i+i);ri;};tfi(ti,ti){dti     (E);N}S$            
+44  :                    i+i);ri;};tfi(ti,ti){dti;     E);N}S$             
+45  :E->i                i+i);ri;};tfi(ti,ti){dti;     E);N}S$             
+46  : SAVESTATE:          9
+46  :                    i+i);ri;};tfi(ti,ti){dti;     i);N}S$             
+47  :                    +i);ri;};tfi(ti,ti){dti;t     );N}S$              
+48  : TS_NOK/NS_NORULECHIN
+48  : RESSTATE            
+48  :                    i+i);ri;};tfi(ti,ti){dti;     E);N}S$             
+49  :E->iM               i+i);ri;};tfi(ti,ti){dti;     E);N}S$             
+50  : SAVESTATE:          9
+50  :                    i+i);ri;};tfi(ti,ti){dti;     iM);N}S$            
+51  :                    +i);ri;};tfi(ti,ti){dti;t     M);N}S$             
+52  :M->+E               +i);ri;};tfi(ti,ti){dti;t     M);N}S$             
+53  : SAVESTATE:          10
+53  :                    +i);ri;};tfi(ti,ti){dti;t     +E);N}S$            
+54  :                    i);ri;};tfi(ti,ti){dti;tf     E);N}S$             
+55  :E->i                i);ri;};tfi(ti,ti){dti;tf     E);N}S$             
+56  : SAVESTATE:          11
+56  :                    i);ri;};tfi(ti,ti){dti;tf     i);N}S$             
+57  :                    );ri;};tfi(ti,ti){dti;tfa     );N}S$              
+58  :                    ;ri;};tfi(ti,ti){dti;tfa(     ;N}S$               
+59  :                    ri;};tfi(ti,ti){dti;tfa(t     N}S$                
+60  :N->rE;              ri;};tfi(ti,ti){dti;tfa(t     N}S$                
+61  : SAVESTATE:          12
+61  :                    ri;};tfi(ti,ti){dti;tfa(t     rE;}S$              
+62  :                    i;};tfi(ti,ti){dti;tfa(ti     E;}S$               
+63  :E->i                i;};tfi(ti,ti){dti;tfa(ti     E;}S$               
+64  : SAVESTATE:          13
+64  :                    i;};tfi(ti,ti){dti;tfa(ti     i;}S$               
+65  :                    ;};tfi(ti,ti){dti;tfa(ti,     ;}S$                
+66  :                    };tfi(ti,ti){dti;tfa(ti,t     }S$                 
+67  :                    ;tfi(ti,ti){dti;tfa(ti,ti     S$                  
+68  : TNS_NORULECHAIN/NS_NORULE
+68  : RESSTATE            
+68  :                    i;};tfi(ti,ti){dti;tfa(ti     E;}S$               
+69  :E->iM               i;};tfi(ti,ti){dti;tfa(ti     E;}S$               
+70  : SAVESTATE:          13
+70  :                    i;};tfi(ti,ti){dti;tfa(ti     iM;}S$              
+71  :                    ;};tfi(ti,ti){dti;tfa(ti,     M;}S$               
+72  : TNS_NORULECHAIN/NS_NORULE
+72  : RESSTATE            
+72  :                    i;};tfi(ti,ti){dti;tfa(ti     E;}S$               
+73  :E->i(W)             i;};tfi(ti,ti){dti;tfa(ti     E;}S$               
+74  : SAVESTATE:          13
+74  :                    i;};tfi(ti,ti){dti;tfa(ti     i(W);}S$            
+75  :                    ;};tfi(ti,ti){dti;tfa(ti,     (W);}S$             
+76  : TS_NOK/NS_NORULECHIN
+76  : RESSTATE            
+76  :                    i;};tfi(ti,ti){dti;tfa(ti     E;}S$               
+77  : TNS_NORULECHAIN/NS_NORULE
+77  : RESSTATE            
+77  :                    ri;};tfi(ti,ti){dti;tfa(t     N}S$                
+78  : TNS_NORULECHAIN/NS_NORULE
+78  : RESSTATE            
+78  :                    i);ri;};tfi(ti,ti){dti;tf     E);N}S$             
+79  :E->iM               i);ri;};tfi(ti,ti){dti;tf     E);N}S$             
+80  : SAVESTATE:          11
+80  :                    i);ri;};tfi(ti,ti){dti;tf     iM);N}S$            
+81  :                    );ri;};tfi(ti,ti){dti;tfa     M);N}S$             
+82  : TNS_NORULECHAIN/NS_NORULE
+82  : RESSTATE            
+82  :                    i);ri;};tfi(ti,ti){dti;tf     E);N}S$             
+83  :E->i(W)             i);ri;};tfi(ti,ti){dti;tf     E);N}S$             
+84  : SAVESTATE:          11
+84  :                    i);ri;};tfi(ti,ti){dti;tf     i(W));N}S$          
+85  :                    );ri;};tfi(ti,ti){dti;tfa     (W));N}S$           
+86  : TS_NOK/NS_NORULECHIN
+86  : RESSTATE            
+86  :                    i);ri;};tfi(ti,ti){dti;tf     E);N}S$             
+87  : TNS_NORULECHAIN/NS_NORULE
+87  : RESSTATE            
+87  :                    +i);ri;};tfi(ti,ti){dti;t     M);N}S$             
+88  :M->+EM              +i);ri;};tfi(ti,ti){dti;t     M);N}S$             
+89  : SAVESTATE:          10
+89  :                    +i);ri;};tfi(ti,ti){dti;t     +EM);N}S$           
+90  :                    i);ri;};tfi(ti,ti){dti;tf     EM);N}S$            
+91  :E->i                i);ri;};tfi(ti,ti){dti;tf     EM);N}S$            
+92  : SAVESTATE:          11
+92  :                    i);ri;};tfi(ti,ti){dti;tf     iM);N}S$            
+93  :                    );ri;};tfi(ti,ti){dti;tfa     M);N}S$             
+94  : TNS_NORULECHAIN/NS_NORULE
+94  : RESSTATE            
+94  :                    i);ri;};tfi(ti,ti){dti;tf     EM);N}S$            
+95  :E->iM               i);ri;};tfi(ti,ti){dti;tf     EM);N}S$            
+96  : SAVESTATE:          11
+96  :                    i);ri;};tfi(ti,ti){dti;tf     iMM);N}S$           
+97  :                    );ri;};tfi(ti,ti){dti;tfa     MM);N}S$            
+98  : TNS_NORULECHAIN/NS_NORULE
+98  : RESSTATE            
+98  :                    i);ri;};tfi(ti,ti){dti;tf     EM);N}S$            
+99  :E->i(W)             i);ri;};tfi(ti,ti){dti;tf     EM);N}S$            
+100 : SAVESTATE:          11
+100 :                    i);ri;};tfi(ti,ti){dti;tf     i(W)M);N}S$         
+101 :                    );ri;};tfi(ti,ti){dti;tfa     (W)M);N}S$          
+102 : TS_NOK/NS_NORULECHIN
+102 : RESSTATE            
+102 :                    i);ri;};tfi(ti,ti){dti;tf     EM);N}S$            
+103 : TNS_NORULECHAIN/NS_NORULE
+103 : RESSTATE            
+103 :                    +i);ri;};tfi(ti,ti){dti;t     M);N}S$             
+104 : TNS_NORULECHAIN/NS_NORULE
+104 : RESSTATE            
+104 :                    i+i);ri;};tfi(ti,ti){dti;     E);N}S$             
+105 :E->i(W)             i+i);ri;};tfi(ti,ti){dti;     E);N}S$             
+106 : SAVESTATE:          9
+106 :                    i+i);ri;};tfi(ti,ti){dti;     i(W));N}S$          
+107 :                    +i);ri;};tfi(ti,ti){dti;t     (W));N}S$           
+108 : TS_NOK/NS_NORULECHIN
+108 : RESSTATE            
+108 :                    i+i);ri;};tfi(ti,ti){dti;     E);N}S$             
+109 : TNS_NORULECHAIN/NS_NORULE
+109 : RESSTATE            
+109 :                    (i+i);ri;};tfi(ti,ti){dti     E;N}S$              
+110 : TNS_NORULECHAIN/NS_NORULE
+110 : RESSTATE            
+110 :                    *(i+i);ri;};tfi(ti,ti){dt     M;N}S$              
+111 :M->*EM              *(i+i);ri;};tfi(ti,ti){dt     M;N}S$              
+112 : SAVESTATE:          7
+112 :                    *(i+i);ri;};tfi(ti,ti){dt     *EM;N}S$            
+113 :                    (i+i);ri;};tfi(ti,ti){dti     EM;N}S$             
+114 :E->(E)              (i+i);ri;};tfi(ti,ti){dti     EM;N}S$             
+115 : SAVESTATE:          8
+115 :                    (i+i);ri;};tfi(ti,ti){dti     (E)M;N}S$           
+116 :                    i+i);ri;};tfi(ti,ti){dti;     E)M;N}S$            
+117 :E->i                i+i);ri;};tfi(ti,ti){dti;     E)M;N}S$            
+118 : SAVESTATE:          9
+118 :                    i+i);ri;};tfi(ti,ti){dti;     i)M;N}S$            
+119 :                    +i);ri;};tfi(ti,ti){dti;t     )M;N}S$             
+120 : TS_NOK/NS_NORULECHIN
+120 : RESSTATE            
+120 :                    i+i);ri;};tfi(ti,ti){dti;     E)M;N}S$            
+121 :E->iM               i+i);ri;};tfi(ti,ti){dti;     E)M;N}S$            
+122 : SAVESTATE:          9
+122 :                    i+i);ri;};tfi(ti,ti){dti;     iM)M;N}S$           
+123 :                    +i);ri;};tfi(ti,ti){dti;t     M)M;N}S$            
+124 :M->+E               +i);ri;};tfi(ti,ti){dti;t     M)M;N}S$            
+125 : SAVESTATE:          10
+125 :                    +i);ri;};tfi(ti,ti){dti;t     +E)M;N}S$           
+126 :                    i);ri;};tfi(ti,ti){dti;tf     E)M;N}S$            
+127 :E->i                i);ri;};tfi(ti,ti){dti;tf     E)M;N}S$            
+128 : SAVESTATE:          11
+128 :                    i);ri;};tfi(ti,ti){dti;tf     i)M;N}S$            
+129 :                    );ri;};tfi(ti,ti){dti;tfa     )M;N}S$             
+130 :                    ;ri;};tfi(ti,ti){dti;tfa(     M;N}S$              
+131 : TNS_NORULECHAIN/NS_NORULE
+131 : RESSTATE            
+131 :                    i);ri;};tfi(ti,ti){dti;tf     E)M;N}S$            
+132 :E->iM               i);ri;};tfi(ti,ti){dti;tf     E)M;N}S$            
+133 : SAVESTATE:          11
+133 :                    i);ri;};tfi(ti,ti){dti;tf     iM)M;N}S$           
+134 :                    );ri;};tfi(ti,ti){dti;tfa     M)M;N}S$            
+135 : TNS_NORULECHAIN/NS_NORULE
+135 : RESSTATE            
+135 :                    i);ri;};tfi(ti,ti){dti;tf     E)M;N}S$            
+136 :E->i(W)             i);ri;};tfi(ti,ti){dti;tf     E)M;N}S$            
+137 : SAVESTATE:          11
+137 :                    i);ri;};tfi(ti,ti){dti;tf     i(W))M;N}S$         
+138 :                    );ri;};tfi(ti,ti){dti;tfa     (W))M;N}S$          
+139 : TS_NOK/NS_NORULECHIN
+139 : RESSTATE            
+139 :                    i);ri;};tfi(ti,ti){dti;tf     E)M;N}S$            
+140 : TNS_NORULECHAIN/NS_NORULE
+140 : RESSTATE            
+140 :                    +i);ri;};tfi(ti,ti){dti;t     M)M;N}S$            
+141 :M->+EM              +i);ri;};tfi(ti,ti){dti;t     M)M;N}S$            
+142 : SAVESTATE:          10
+142 :                    +i);ri;};tfi(ti,ti){dti;t     +EM)M;N}S$          
+143 :                    i);ri;};tfi(ti,ti){dti;tf     EM)M;N}S$           
+144 :E->i                i);ri;};tfi(ti,ti){dti;tf     EM)M;N}S$           
+145 : SAVESTATE:          11
+145 :                    i);ri;};tfi(ti,ti){dti;tf     iM)M;N}S$           
+146 :                    );ri;};tfi(ti,ti){dti;tfa     M)M;N}S$            
+147 : TNS_NORULECHAIN/NS_NORULE
+147 : RESSTATE            
+147 :                    i);ri;};tfi(ti,ti){dti;tf     EM)M;N}S$           
+148 :E->iM               i);ri;};tfi(ti,ti){dti;tf     EM)M;N}S$           
+149 : SAVESTATE:          11
+149 :                    i);ri;};tfi(ti,ti){dti;tf     iMM)M;N}S$          
+150 :                    );ri;};tfi(ti,ti){dti;tfa     MM)M;N}S$           
+151 : TNS_NORULECHAIN/NS_NORULE
+151 : RESSTATE            
+151 :                    i);ri;};tfi(ti,ti){dti;tf     EM)M;N}S$           
+152 :E->i(W)             i);ri;};tfi(ti,ti){dti;tf     EM)M;N}S$           
+153 : SAVESTATE:          11
+153 :                    i);ri;};tfi(ti,ti){dti;tf     i(W)M)M;N}S$        
+154 :                    );ri;};tfi(ti,ti){dti;tfa     (W)M)M;N}S$         
+155 : TS_NOK/NS_NORULECHIN
+155 : RESSTATE            
+155 :                    i);ri;};tfi(ti,ti){dti;tf     EM)M;N}S$           
+156 : TNS_NORULECHAIN/NS_NORULE
+156 : RESSTATE            
+156 :                    +i);ri;};tfi(ti,ti){dti;t     M)M;N}S$            
+157 : TNS_NORULECHAIN/NS_NORULE
+157 : RESSTATE            
+157 :                    i+i);ri;};tfi(ti,ti){dti;     E)M;N}S$            
+158 :E->i(W)             i+i);ri;};tfi(ti,ti){dti;     E)M;N}S$            
+159 : SAVESTATE:          9
+159 :                    i+i);ri;};tfi(ti,ti){dti;     i(W))M;N}S$         
+160 :                    +i);ri;};tfi(ti,ti){dti;t     (W))M;N}S$          
+161 : TS_NOK/NS_NORULECHIN
+161 : RESSTATE            
+161 :                    i+i);ri;};tfi(ti,ti){dti;     E)M;N}S$            
+162 : TNS_NORULECHAIN/NS_NORULE
+162 : RESSTATE            
+162 :                    (i+i);ri;};tfi(ti,ti){dti     EM;N}S$             
+163 : TNS_NORULECHAIN/NS_NORULE
+163 : RESSTATE            
+163 :                    *(i+i);ri;};tfi(ti,ti){dt     M;N}S$              
+164 : TNS_NORULECHAIN/NS_NORULE
+164 : RESSTATE            
+164 :                    i*(i+i);ri;};tfi(ti,ti){d     E;N}S$              
+165 :E->i(W)             i*(i+i);ri;};tfi(ti,ti){d     E;N}S$              
+166 : SAVESTATE:          6
+166 :                    i*(i+i);ri;};tfi(ti,ti){d     i(W);N}S$           
+167 :                    *(i+i);ri;};tfi(ti,ti){dt     (W);N}S$            
+168 : TS_NOK/NS_NORULECHIN
+168 : RESSTATE            
+168 :                    i*(i+i);ri;};tfi(ti,ti){d     E;N}S$              
+169 : TNS_NORULECHAIN/NS_NORULE
+169 : RESSTATE            
+169 :                    i=i*(i+i);ri;};tfi(ti,ti)     N}S$                
+170 : TNS_NORULECHAIN/NS_NORULE
+170 : RESSTATE            
+170 :                    dti;i=i*(i+i);ri;};tfi(ti     N}S$                
+171 :N->dti=E;N          dti;i=i*(i+i);ri;};tfi(ti     N}S$                
+172 : SAVESTATE:          4
+172 :                    dti;i=i*(i+i);ri;};tfi(ti     dti=E;N}S$          
+173 :                    ti;i=i*(i+i);ri;};tfi(ti,     ti=E;N}S$           
+174 :                    i;i=i*(i+i);ri;};tfi(ti,t     i=E;N}S$            
+175 :                    ;i=i*(i+i);ri;};tfi(ti,ti     =E;N}S$             
+176 : TS_NOK/NS_NORULECHIN
+176 : RESSTATE            
+176 :                    dti;i=i*(i+i);ri;};tfi(ti     N}S$                
+177 : TNS_NORULECHAIN/NS_NORULE
+177 : RESSTATE            
+177 :                    ti){dti;i=i*(i+i);ri;};tf     F){N}S$             
+178 :F->ti,F             ti){dti;i=i*(i+i);ri;};tf     F){N}S$             
+179 : SAVESTATE:          3
+179 :                    ti){dti;i=i*(i+i);ri;};tf     ti,F){N}S$          
+180 :                    i){dti;i=i*(i+i);ri;};tfi     i,F){N}S$           
+181 :                    ){dti;i=i*(i+i);ri;};tfi(     ,F){N}S$            
+182 : TS_NOK/NS_NORULECHIN
+182 : RESSTATE            
+182 :                    ti){dti;i=i*(i+i);ri;};tf     F){N}S$             
+183 : TNS_NORULECHAIN/NS_NORULE
+183 : RESSTATE            
+183 :                    ti,ti){dti;i=i*(i+i);ri;}     F){N}S$             
+184 : TNS_NORULECHAIN/NS_NORULE
+184 : RESSTATE            
+184 :                    tfi(ti,ti){dti;i=i*(i+i);     S$                  
+185 :S->tfi(F){N};S      tfi(ti,ti){dti;i=i*(i+i);     S$                  
+186 : SAVESTATE:          1
+186 :                    tfi(ti,ti){dti;i=i*(i+i);     tfi(F){N};S$        
+187 :                    fi(ti,ti){dti;i=i*(i+i);r     fi(F){N};S$         
+188 :                    i(ti,ti){dti;i=i*(i+i);ri     i(F){N};S$          
+189 :                    (ti,ti){dti;i=i*(i+i);ri;     (F){N};S$           
+190 :                    ti,ti){dti;i=i*(i+i);ri;}     F){N};S$            
+191 :F->ti               ti,ti){dti;i=i*(i+i);ri;}     F){N};S$            
+192 : SAVESTATE:          2
+192 :                    ti,ti){dti;i=i*(i+i);ri;}     ti){N};S$           
+193 :                    i,ti){dti;i=i*(i+i);ri;};     i){N};S$            
+194 :                    ,ti){dti;i=i*(i+i);ri;};t     ){N};S$             
+195 : TS_NOK/NS_NORULECHIN
+195 : RESSTATE            
+195 :                    ti,ti){dti;i=i*(i+i);ri;}     F){N};S$            
+196 :F->ti,F             ti,ti){dti;i=i*(i+i);ri;}     F){N};S$            
+197 : SAVESTATE:          2
+197 :                    ti,ti){dti;i=i*(i+i);ri;}     ti,F){N};S$         
+198 :                    i,ti){dti;i=i*(i+i);ri;};     i,F){N};S$          
+199 :                    ,ti){dti;i=i*(i+i);ri;};t     ,F){N};S$           
+200 :                    ti){dti;i=i*(i+i);ri;};tf     F){N};S$            
+201 :F->ti               ti){dti;i=i*(i+i);ri;};tf     F){N};S$            
+202 : SAVESTATE:          3
+202 :                    ti){dti;i=i*(i+i);ri;};tf     ti){N};S$           
+203 :                    i){dti;i=i*(i+i);ri;};tfi     i){N};S$            
+204 :                    ){dti;i=i*(i+i);ri;};tfi(     ){N};S$             
+205 :                    {dti;i=i*(i+i);ri;};tfi(t     {N};S$              
+206 :                    dti;i=i*(i+i);ri;};tfi(ti     N};S$               
+207 :N->dti;N            dti;i=i*(i+i);ri;};tfi(ti     N};S$               
+208 : SAVESTATE:          4
+208 :                    dti;i=i*(i+i);ri;};tfi(ti     dti;N};S$           
+209 :                    ti;i=i*(i+i);ri;};tfi(ti,     ti;N};S$            
+210 :                    i;i=i*(i+i);ri;};tfi(ti,t     i;N};S$             
+211 :                    ;i=i*(i+i);ri;};tfi(ti,ti     ;N};S$              
+212 :                    i=i*(i+i);ri;};tfi(ti,ti)     N};S$               
+213 :N->i=E;N            i=i*(i+i);ri;};tfi(ti,ti)     N};S$               
+214 : SAVESTATE:          5
+214 :                    i=i*(i+i);ri;};tfi(ti,ti)     i=E;N};S$           
+215 :                    =i*(i+i);ri;};tfi(ti,ti){     =E;N};S$            
+216 :                    i*(i+i);ri;};tfi(ti,ti){d     E;N};S$             
+217 :E->i                i*(i+i);ri;};tfi(ti,ti){d     E;N};S$             
+218 : SAVESTATE:          6
+218 :                    i*(i+i);ri;};tfi(ti,ti){d     i;N};S$             
+219 :                    *(i+i);ri;};tfi(ti,ti){dt     ;N};S$              
+220 : TS_NOK/NS_NORULECHIN
+220 : RESSTATE            
+220 :                    i*(i+i);ri;};tfi(ti,ti){d     E;N};S$             
+221 :E->iM               i*(i+i);ri;};tfi(ti,ti){d     E;N};S$             
+222 : SAVESTATE:          6
+222 :                    i*(i+i);ri;};tfi(ti,ti){d     iM;N};S$            
+223 :                    *(i+i);ri;};tfi(ti,ti){dt     M;N};S$             
+224 :M->*E               *(i+i);ri;};tfi(ti,ti){dt     M;N};S$             
+225 : SAVESTATE:          7
+225 :                    *(i+i);ri;};tfi(ti,ti){dt     *E;N};S$            
+226 :                    (i+i);ri;};tfi(ti,ti){dti     E;N};S$             
+227 :E->(E)              (i+i);ri;};tfi(ti,ti){dti     E;N};S$             
+228 : SAVESTATE:          8
+228 :                    (i+i);ri;};tfi(ti,ti){dti     (E);N};S$           
+229 :                    i+i);ri;};tfi(ti,ti){dti;     E);N};S$            
+230 :E->i                i+i);ri;};tfi(ti,ti){dti;     E);N};S$            
+231 : SAVESTATE:          9
+231 :                    i+i);ri;};tfi(ti,ti){dti;     i);N};S$            
+232 :                    +i);ri;};tfi(ti,ti){dti;t     );N};S$             
+233 : TS_NOK/NS_NORULECHIN
+233 : RESSTATE            
+233 :                    i+i);ri;};tfi(ti,ti){dti;     E);N};S$            
+234 :E->iM               i+i);ri;};tfi(ti,ti){dti;     E);N};S$            
+235 : SAVESTATE:          9
+235 :                    i+i);ri;};tfi(ti,ti){dti;     iM);N};S$           
+236 :                    +i);ri;};tfi(ti,ti){dti;t     M);N};S$            
+237 :M->+E               +i);ri;};tfi(ti,ti){dti;t     M);N};S$            
+238 : SAVESTATE:          10
+238 :                    +i);ri;};tfi(ti,ti){dti;t     +E);N};S$           
+239 :                    i);ri;};tfi(ti,ti){dti;tf     E);N};S$            
+240 :E->i                i);ri;};tfi(ti,ti){dti;tf     E);N};S$            
+241 : SAVESTATE:          11
+241 :                    i);ri;};tfi(ti,ti){dti;tf     i);N};S$            
+242 :                    );ri;};tfi(ti,ti){dti;tfa     );N};S$             
+243 :                    ;ri;};tfi(ti,ti){dti;tfa(     ;N};S$              
+244 :                    ri;};tfi(ti,ti){dti;tfa(t     N};S$               
+245 :N->rE;              ri;};tfi(ti,ti){dti;tfa(t     N};S$               
+246 : SAVESTATE:          12
+246 :                    ri;};tfi(ti,ti){dti;tfa(t     rE;};S$             
+247 :                    i;};tfi(ti,ti){dti;tfa(ti     E;};S$              
+248 :E->i                i;};tfi(ti,ti){dti;tfa(ti     E;};S$              
+249 : SAVESTATE:          13
+249 :                    i;};tfi(ti,ti){dti;tfa(ti     i;};S$              
+250 :                    ;};tfi(ti,ti){dti;tfa(ti,     ;};S$               
+251 :                    };tfi(ti,ti){dti;tfa(ti,t     };S$                
+252 :                    ;tfi(ti,ti){dti;tfa(ti,ti     ;S$                 
+253 :                    tfi(ti,ti){dti;tfa(ti,ti,     S$                  
+254 :S->tfi(F){N}S       tfi(ti,ti){dti;tfa(ti,ti,     S$                  
+255 : SAVESTATE:          14
+255 :                    tfi(ti,ti){dti;tfa(ti,ti,     tfi(F){N}S$         
+256 :                    fi(ti,ti){dti;tfa(ti,ti,t     fi(F){N}S$          
+257 :                    i(ti,ti){dti;tfa(ti,ti,ti     i(F){N}S$           
+258 :                    (ti,ti){dti;tfa(ti,ti,ti)     (F){N}S$            
+259 :                    ti,ti){dti;tfa(ti,ti,ti);     F){N}S$             
+260 :F->ti               ti,ti){dti;tfa(ti,ti,ti);     F){N}S$             
+261 : SAVESTATE:          15
+261 :                    ti,ti){dti;tfa(ti,ti,ti);     ti){N}S$            
+262 :                    i,ti){dti;tfa(ti,ti,ti);i     i){N}S$             
+263 :                    ,ti){dti;tfa(ti,ti,ti);i=     ){N}S$              
+264 : TS_NOK/NS_NORULECHIN
+264 : RESSTATE            
+264 :                    ti,ti){dti;tfa(ti,ti,ti);     F){N}S$             
+265 :F->ti,F             ti,ti){dti;tfa(ti,ti,ti);     F){N}S$             
+266 : SAVESTATE:          15
+266 :                    ti,ti){dti;tfa(ti,ti,ti);     ti,F){N}S$          
+267 :                    i,ti){dti;tfa(ti,ti,ti);i     i,F){N}S$           
+268 :                    ,ti){dti;tfa(ti,ti,ti);i=     ,F){N}S$            
+269 :                    ti){dti;tfa(ti,ti,ti);i=a     F){N}S$             
+270 :F->ti               ti){dti;tfa(ti,ti,ti);i=a     F){N}S$             
+271 : SAVESTATE:          16
+271 :                    ti){dti;tfa(ti,ti,ti);i=a     ti){N}S$            
+272 :                    i){dti;tfa(ti,ti,ti);i=a(     i){N}S$             
+273 :                    ){dti;tfa(ti,ti,ti);i=a(i     ){N}S$              
+274 :                    {dti;tfa(ti,ti,ti);i=a(i,     {N}S$               
+275 :                    dti;tfa(ti,ti,ti);i=a(i,l     N}S$                
+276 :N->dti;N            dti;tfa(ti,ti,ti);i=a(i,l     N}S$                
+277 : SAVESTATE:          17
+277 :                    dti;tfa(ti,ti,ti);i=a(i,l     dti;N}S$            
+278 :                    ti;tfa(ti,ti,ti);i=a(i,l,     ti;N}S$             
+279 :                    i;tfa(ti,ti,ti);i=a(i,l,l     i;N}S$              
+280 :                    ;tfa(ti,ti,ti);i=a(i,l,l)     ;N}S$               
+281 :                    tfa(ti,ti,ti);i=a(i,l,l)+     N}S$                
+282 :N->tfa(F);N         tfa(ti,ti,ti);i=a(i,l,l)+     N}S$                
+283 : SAVESTATE:          18
+283 :                    tfa(ti,ti,ti);i=a(i,l,l)+     tfa(F);N}S$         
+284 :                    fa(ti,ti,ti);i=a(i,l,l)+i     fa(F);N}S$          
+285 :                    a(ti,ti,ti);i=a(i,l,l)+i;     a(F);N}S$           
+286 :                    (ti,ti,ti);i=a(i,l,l)+i;r     (F);N}S$            
+287 :                    ti,ti,ti);i=a(i,l,l)+i;ri     F);N}S$             
+288 :F->ti               ti,ti,ti);i=a(i,l,l)+i;ri     F);N}S$             
+289 : SAVESTATE:          19
+289 :                    ti,ti,ti);i=a(i,l,l)+i;ri     ti);N}S$            
+290 :                    i,ti,ti);i=a(i,l,l)+i;ri;     i);N}S$             
+291 :                    ,ti,ti);i=a(i,l,l)+i;ri;}     );N}S$              
+292 : TS_NOK/NS_NORULECHIN
+292 : RESSTATE            
+292 :                    ti,ti,ti);i=a(i,l,l)+i;ri     F);N}S$             
+293 :F->ti,F             ti,ti,ti);i=a(i,l,l)+i;ri     F);N}S$             
+294 : SAVESTATE:          19
+294 :                    ti,ti,ti);i=a(i,l,l)+i;ri     ti,F);N}S$          
+295 :                    i,ti,ti);i=a(i,l,l)+i;ri;     i,F);N}S$           
+296 :                    ,ti,ti);i=a(i,l,l)+i;ri;}     ,F);N}S$            
+297 :                    ti,ti);i=a(i,l,l)+i;ri;};     F);N}S$             
+298 :F->ti               ti,ti);i=a(i,l,l)+i;ri;};     F);N}S$             
+299 : SAVESTATE:          20
+299 :                    ti,ti);i=a(i,l,l)+i;ri;};     ti);N}S$            
+300 :                    i,ti);i=a(i,l,l)+i;ri;};m     i);N}S$             
+301 :                    ,ti);i=a(i,l,l)+i;ri;};m{     );N}S$              
+302 : TS_NOK/NS_NORULECHIN
+302 : RESSTATE            
+302 :                    ti,ti);i=a(i,l,l)+i;ri;};     F);N}S$             
+303 :F->ti,F             ti,ti);i=a(i,l,l)+i;ri;};     F);N}S$             
+304 : SAVESTATE:          20
+304 :                    ti,ti);i=a(i,l,l)+i;ri;};     ti,F);N}S$          
+305 :                    i,ti);i=a(i,l,l)+i;ri;};m     i,F);N}S$           
+306 :                    ,ti);i=a(i,l,l)+i;ri;};m{     ,F);N}S$            
+307 :                    ti);i=a(i,l,l)+i;ri;};m{d     F);N}S$             
+308 :F->ti               ti);i=a(i,l,l)+i;ri;};m{d     F);N}S$             
+309 : SAVESTATE:          21
+309 :                    ti);i=a(i,l,l)+i;ri;};m{d     ti);N}S$            
+310 :                    i);i=a(i,l,l)+i;ri;};m{dt     i);N}S$             
+311 :                    );i=a(i,l,l)+i;ri;};m{dti     );N}S$              
+312 :                    ;i=a(i,l,l)+i;ri;};m{dti;     ;N}S$               
+313 :                    i=a(i,l,l)+i;ri;};m{dti;d     N}S$                
+314 :N->i=E;N            i=a(i,l,l)+i;ri;};m{dti;d     N}S$                
+315 : SAVESTATE:          22
+315 :                    i=a(i,l,l)+i;ri;};m{dti;d     i=E;N}S$            
+316 :                    =a(i,l,l)+i;ri;};m{dti;dt     =E;N}S$             
+317 :                    a(i,l,l)+i;ri;};m{dti;dti     E;N}S$              
+318 :E->a(W)M            a(i,l,l)+i;ri;};m{dti;dti     E;N}S$              
+319 : SAVESTATE:          23
+319 :                    a(i,l,l)+i;ri;};m{dti;dti     a(W)M;N}S$          
+320 :                    (i,l,l)+i;ri;};m{dti;dti;     (W)M;N}S$           
+321 :                    i,l,l)+i;ri;};m{dti;dti;d     W)M;N}S$            
+322 :W->i,W              i,l,l)+i;ri;};m{dti;dti;d     W)M;N}S$            
+323 : SAVESTATE:          24
+323 :                    i,l,l)+i;ri;};m{dti;dti;d     i,W)M;N}S$          
+324 :                    ,l,l)+i;ri;};m{dti;dti;dt     ,W)M;N}S$           
+325 :                    l,l)+i;ri;};m{dti;dti;dti     W)M;N}S$            
+326 :W->l,W              l,l)+i;ri;};m{dti;dti;dti     W)M;N}S$            
+327 : SAVESTATE:          25
+327 :                    l,l)+i;ri;};m{dti;dti;dti     l,W)M;N}S$          
+328 :                    ,l)+i;ri;};m{dti;dti;dti;     ,W)M;N}S$           
+329 :                    l)+i;ri;};m{dti;dti;dti;d     W)M;N}S$            
+330 :W->l,W              l)+i;ri;};m{dti;dti;dti;d     W)M;N}S$            
+331 : SAVESTATE:          26
+331 :                    l)+i;ri;};m{dti;dti;dti;d     l,W)M;N}S$          
+332 :                    )+i;ri;};m{dti;dti;dti;dt     ,W)M;N}S$           
+333 : TS_NOK/NS_NORULECHIN
+333 : RESSTATE            
+333 :                    l)+i;ri;};m{dti;dti;dti;d     W)M;N}S$            
+334 :W->l                l)+i;ri;};m{dti;dti;dti;d     W)M;N}S$            
+335 : SAVESTATE:          26
+335 :                    l)+i;ri;};m{dti;dti;dti;d     l)M;N}S$            
+336 :                    )+i;ri;};m{dti;dti;dti;dt     )M;N}S$             
+337 :                    +i;ri;};m{dti;dti;dti;dti     M;N}S$              
+338 :M->+E               +i;ri;};m{dti;dti;dti;dti     M;N}S$              
+339 : SAVESTATE:          27
+339 :                    +i;ri;};m{dti;dti;dti;dti     +E;N}S$             
+340 :                    i;ri;};m{dti;dti;dti;dti;     E;N}S$              
+341 :E->i                i;ri;};m{dti;dti;dti;dti;     E;N}S$              
+342 : SAVESTATE:          28
+342 :                    i;ri;};m{dti;dti;dti;dti;     i;N}S$              
+343 :                    ;ri;};m{dti;dti;dti;dti;d     ;N}S$               
+344 :                    ri;};m{dti;dti;dti;dti;dt     N}S$                
+345 :N->rE;              ri;};m{dti;dti;dti;dti;dt     N}S$                
+346 : SAVESTATE:          29
+346 :                    ri;};m{dti;dti;dti;dti;dt     rE;}S$              
+347 :                    i;};m{dti;dti;dti;dti;dti     E;}S$               
+348 :E->i                i;};m{dti;dti;dti;dti;dti     E;}S$               
+349 : SAVESTATE:          30
+349 :                    i;};m{dti;dti;dti;dti;dti     i;}S$               
+350 :                    ;};m{dti;dti;dti;dti;dti;     ;}S$                
+351 :                    };m{dti;dti;dti;dti;dti;d     }S$                 
+352 :                    ;m{dti;dti;dti;dti;dti;dt     S$                  
+353 : TNS_NORULECHAIN/NS_NORULE
+353 : RESSTATE            
+353 :                    i;};m{dti;dti;dti;dti;dti     E;}S$               
+354 :E->iM               i;};m{dti;dti;dti;dti;dti     E;}S$               
+355 : SAVESTATE:          30
+355 :                    i;};m{dti;dti;dti;dti;dti     iM;}S$              
+356 :                    ;};m{dti;dti;dti;dti;dti;     M;}S$               
+357 : TNS_NORULECHAIN/NS_NORULE
+357 : RESSTATE            
+357 :                    i;};m{dti;dti;dti;dti;dti     E;}S$               
+358 :E->i(W)             i;};m{dti;dti;dti;dti;dti     E;}S$               
+359 : SAVESTATE:          30
+359 :                    i;};m{dti;dti;dti;dti;dti     i(W);}S$            
+360 :                    ;};m{dti;dti;dti;dti;dti;     (W);}S$             
+361 : TS_NOK/NS_NORULECHIN
+361 : RESSTATE            
+361 :                    i;};m{dti;dti;dti;dti;dti     E;}S$               
+362 : TNS_NORULECHAIN/NS_NORULE
+362 : RESSTATE            
+362 :                    ri;};m{dti;dti;dti;dti;dt     N}S$                
+363 : TNS_NORULECHAIN/NS_NORULE
+363 : RESSTATE            
+363 :                    i;ri;};m{dti;dti;dti;dti;     E;N}S$              
+364 :E->iM               i;ri;};m{dti;dti;dti;dti;     E;N}S$              
+365 : SAVESTATE:          28
+365 :                    i;ri;};m{dti;dti;dti;dti;     iM;N}S$             
+366 :                    ;ri;};m{dti;dti;dti;dti;d     M;N}S$              
+367 : TNS_NORULECHAIN/NS_NORULE
+367 : RESSTATE            
+367 :                    i;ri;};m{dti;dti;dti;dti;     E;N}S$              
+368 :E->i(W)             i;ri;};m{dti;dti;dti;dti;     E;N}S$              
+369 : SAVESTATE:          28
+369 :                    i;ri;};m{dti;dti;dti;dti;     i(W);N}S$           
+370 :                    ;ri;};m{dti;dti;dti;dti;d     (W);N}S$            
+371 : TS_NOK/NS_NORULECHIN
+371 : RESSTATE            
+371 :                    i;ri;};m{dti;dti;dti;dti;     E;N}S$              
+372 : TNS_NORULECHAIN/NS_NORULE
+372 : RESSTATE            
+372 :                    +i;ri;};m{dti;dti;dti;dti     M;N}S$              
+373 :M->+EM              +i;ri;};m{dti;dti;dti;dti     M;N}S$              
+374 : SAVESTATE:          27
+374 :                    +i;ri;};m{dti;dti;dti;dti     +EM;N}S$            
+375 :                    i;ri;};m{dti;dti;dti;dti;     EM;N}S$             
+376 :E->i                i;ri;};m{dti;dti;dti;dti;     EM;N}S$             
+377 : SAVESTATE:          28
+377 :                    i;ri;};m{dti;dti;dti;dti;     iM;N}S$             
+378 :                    ;ri;};m{dti;dti;dti;dti;d     M;N}S$              
+379 : TNS_NORULECHAIN/NS_NORULE
+379 : RESSTATE            
+379 :                    i;ri;};m{dti;dti;dti;dti;     EM;N}S$             
+380 :E->iM               i;ri;};m{dti;dti;dti;dti;     EM;N}S$             
+381 : SAVESTATE:          28
+381 :                    i;ri;};m{dti;dti;dti;dti;     iMM;N}S$            
+382 :                    ;ri;};m{dti;dti;dti;dti;d     MM;N}S$             
+383 : TNS_NORULECHAIN/NS_NORULE
+383 : RESSTATE            
+383 :                    i;ri;};m{dti;dti;dti;dti;     EM;N}S$             
+384 :E->i(W)             i;ri;};m{dti;dti;dti;dti;     EM;N}S$             
+385 : SAVESTATE:          28
+385 :                    i;ri;};m{dti;dti;dti;dti;     i(W)M;N}S$          
+386 :                    ;ri;};m{dti;dti;dti;dti;d     (W)M;N}S$           
+387 : TS_NOK/NS_NORULECHIN
+387 : RESSTATE            
+387 :                    i;ri;};m{dti;dti;dti;dti;     EM;N}S$             
+388 : TNS_NORULECHAIN/NS_NORULE
+388 : RESSTATE            
+388 :                    +i;ri;};m{dti;dti;dti;dti     M;N}S$              
+389 : TNS_NORULECHAIN/NS_NORULE
+389 : RESSTATE            
+389 :                    l)+i;ri;};m{dti;dti;dti;d     W)M;N}S$            
+390 : TNS_NORULECHAIN/NS_NORULE
+390 : RESSTATE            
+390 :                    l,l)+i;ri;};m{dti;dti;dti     W)M;N}S$            
+391 :W->l                l,l)+i;ri;};m{dti;dti;dti     W)M;N}S$            
+392 : SAVESTATE:          25
+392 :                    l,l)+i;ri;};m{dti;dti;dti     l)M;N}S$            
+393 :                    ,l)+i;ri;};m{dti;dti;dti;     )M;N}S$             
+394 : TS_NOK/NS_NORULECHIN
+394 : RESSTATE            
+394 :                    l,l)+i;ri;};m{dti;dti;dti     W)M;N}S$            
+395 : TNS_NORULECHAIN/NS_NORULE
+395 : RESSTATE            
+395 :                    i,l,l)+i;ri;};m{dti;dti;d     W)M;N}S$            
+396 :W->i                i,l,l)+i;ri;};m{dti;dti;d     W)M;N}S$            
+397 : SAVESTATE:          24
+397 :                    i,l,l)+i;ri;};m{dti;dti;d     i)M;N}S$            
+398 :                    ,l,l)+i;ri;};m{dti;dti;dt     )M;N}S$             
+399 : TS_NOK/NS_NORULECHIN
+399 : RESSTATE            
+399 :                    i,l,l)+i;ri;};m{dti;dti;d     W)M;N}S$            
+400 : TNS_NORULECHAIN/NS_NORULE
+400 : RESSTATE            
+400 :                    a(i,l,l)+i;ri;};m{dti;dti     E;N}S$              
+401 :E->a(W)             a(i,l,l)+i;ri;};m{dti;dti     E;N}S$              
+402 : SAVESTATE:          23
+402 :                    a(i,l,l)+i;ri;};m{dti;dti     a(W);N}S$           
+403 :                    (i,l,l)+i;ri;};m{dti;dti;     (W);N}S$            
+404 :                    i,l,l)+i;ri;};m{dti;dti;d     W);N}S$             
+405 :W->i,W              i,l,l)+i;ri;};m{dti;dti;d     W);N}S$             
+406 : SAVESTATE:          24
+406 :                    i,l,l)+i;ri;};m{dti;dti;d     i,W);N}S$           
+407 :                    ,l,l)+i;ri;};m{dti;dti;dt     ,W);N}S$            
+408 :                    l,l)+i;ri;};m{dti;dti;dti     W);N}S$             
+409 :W->l,W              l,l)+i;ri;};m{dti;dti;dti     W);N}S$             
+410 : SAVESTATE:          25
+410 :                    l,l)+i;ri;};m{dti;dti;dti     l,W);N}S$           
+411 :                    ,l)+i;ri;};m{dti;dti;dti;     ,W);N}S$            
+412 :                    l)+i;ri;};m{dti;dti;dti;d     W);N}S$             
+413 :W->l,W              l)+i;ri;};m{dti;dti;dti;d     W);N}S$             
+414 : SAVESTATE:          26
+414 :                    l)+i;ri;};m{dti;dti;dti;d     l,W);N}S$           
+415 :                    )+i;ri;};m{dti;dti;dti;dt     ,W);N}S$            
+416 : TS_NOK/NS_NORULECHIN
+416 : RESSTATE            
+416 :                    l)+i;ri;};m{dti;dti;dti;d     W);N}S$             
+417 :W->l                l)+i;ri;};m{dti;dti;dti;d     W);N}S$             
+418 : SAVESTATE:          26
+418 :                    l)+i;ri;};m{dti;dti;dti;d     l);N}S$             
+419 :                    )+i;ri;};m{dti;dti;dti;dt     );N}S$              
+420 :                    +i;ri;};m{dti;dti;dti;dti     ;N}S$               
+421 : TS_NOK/NS_NORULECHIN
+421 : RESSTATE            
+421 :                    l)+i;ri;};m{dti;dti;dti;d     W);N}S$             
+422 : TNS_NORULECHAIN/NS_NORULE
+422 : RESSTATE            
+422 :                    l,l)+i;ri;};m{dti;dti;dti     W);N}S$             
+423 :W->l                l,l)+i;ri;};m{dti;dti;dti     W);N}S$             
+424 : SAVESTATE:          25
+424 :                    l,l)+i;ri;};m{dti;dti;dti     l);N}S$             
+425 :                    ,l)+i;ri;};m{dti;dti;dti;     );N}S$              
+426 : TS_NOK/NS_NORULECHIN
+426 : RESSTATE            
+426 :                    l,l)+i;ri;};m{dti;dti;dti     W);N}S$             
+427 : TNS_NORULECHAIN/NS_NORULE
+427 : RESSTATE            
+427 :                    i,l,l)+i;ri;};m{dti;dti;d     W);N}S$             
+428 :W->i                i,l,l)+i;ri;};m{dti;dti;d     W);N}S$             
+429 : SAVESTATE:          24
+429 :                    i,l,l)+i;ri;};m{dti;dti;d     i);N}S$             
+430 :                    ,l,l)+i;ri;};m{dti;dti;dt     );N}S$              
+431 : TS_NOK/NS_NORULECHIN
+431 : RESSTATE            
+431 :                    i,l,l)+i;ri;};m{dti;dti;d     W);N}S$             
+432 : TNS_NORULECHAIN/NS_NORULE
+432 : RESSTATE            
+432 :                    a(i,l,l)+i;ri;};m{dti;dti     E;N}S$              
+433 : TNS_NORULECHAIN/NS_NORULE
+433 : RESSTATE            
+433 :                    i=a(i,l,l)+i;ri;};m{dti;d     N}S$                
+434 : TNS_NORULECHAIN/NS_NORULE
+434 : RESSTATE            
+434 :                    ti);i=a(i,l,l)+i;ri;};m{d     F);N}S$             
+435 :F->ti,F             ti);i=a(i,l,l)+i;ri;};m{d     F);N}S$             
+436 : SAVESTATE:          21
+436 :                    ti);i=a(i,l,l)+i;ri;};m{d     ti,F);N}S$          
+437 :                    i);i=a(i,l,l)+i;ri;};m{dt     i,F);N}S$           
+438 :                    );i=a(i,l,l)+i;ri;};m{dti     ,F);N}S$            
+439 : TS_NOK/NS_NORULECHIN
+439 : RESSTATE            
+439 :                    ti);i=a(i,l,l)+i;ri;};m{d     F);N}S$             
+440 : TNS_NORULECHAIN/NS_NORULE
+440 : RESSTATE            
+440 :                    ti,ti);i=a(i,l,l)+i;ri;};     F);N}S$             
+441 : TNS_NORULECHAIN/NS_NORULE
+441 : RESSTATE            
+441 :                    ti,ti,ti);i=a(i,l,l)+i;ri     F);N}S$             
+442 : TNS_NORULECHAIN/NS_NORULE
+442 : RESSTATE            
+442 :                    tfa(ti,ti,ti);i=a(i,l,l)+     N}S$                
+443 :N->tfs(F);N         tfa(ti,ti,ti);i=a(i,l,l)+     N}S$                
+444 : SAVESTATE:          18
+444 :                    tfa(ti,ti,ti);i=a(i,l,l)+     tfs(F);N}S$         
+445 :                    fa(ti,ti,ti);i=a(i,l,l)+i     fs(F);N}S$          
+446 :                    a(ti,ti,ti);i=a(i,l,l)+i;     s(F);N}S$           
+447 : TS_NOK/NS_NORULECHIN
+447 : RESSTATE            
+447 :                    tfa(ti,ti,ti);i=a(i,l,l)+     N}S$                
+448 : TNS_NORULECHAIN/NS_NORULE
+448 : RESSTATE            
+448 :                    dti;tfa(ti,ti,ti);i=a(i,l     N}S$                
+449 :N->dti=E;N          dti;tfa(ti,ti,ti);i=a(i,l     N}S$                
+450 : SAVESTATE:          17
+450 :                    dti;tfa(ti,ti,ti);i=a(i,l     dti=E;N}S$          
+451 :                    ti;tfa(ti,ti,ti);i=a(i,l,     ti=E;N}S$           
+452 :                    i;tfa(ti,ti,ti);i=a(i,l,l     i=E;N}S$            
+453 :                    ;tfa(ti,ti,ti);i=a(i,l,l)     =E;N}S$             
+454 : TS_NOK/NS_NORULECHIN
+454 : RESSTATE            
+454 :                    dti;tfa(ti,ti,ti);i=a(i,l     N}S$                
+455 : TNS_NORULECHAIN/NS_NORULE
+455 : RESSTATE            
+455 :                    ti){dti;tfa(ti,ti,ti);i=a     F){N}S$             
+456 :F->ti,F             ti){dti;tfa(ti,ti,ti);i=a     F){N}S$             
+457 : SAVESTATE:          16
+457 :                    ti){dti;tfa(ti,ti,ti);i=a     ti,F){N}S$          
+458 :                    i){dti;tfa(ti,ti,ti);i=a(     i,F){N}S$           
+459 :                    ){dti;tfa(ti,ti,ti);i=a(i     ,F){N}S$            
+460 : TS_NOK/NS_NORULECHIN
+460 : RESSTATE            
+460 :                    ti){dti;tfa(ti,ti,ti);i=a     F){N}S$             
+461 : TNS_NORULECHAIN/NS_NORULE
+461 : RESSTATE            
+461 :                    ti,ti){dti;tfa(ti,ti,ti);     F){N}S$             
+462 : TNS_NORULECHAIN/NS_NORULE
+462 : RESSTATE            
+462 :                    tfi(ti,ti){dti;tfa(ti,ti,     S$                  
+463 :S->tfi(F){N};S      tfi(ti,ti){dti;tfa(ti,ti,     S$                  
+464 : SAVESTATE:          14
+464 :                    tfi(ti,ti){dti;tfa(ti,ti,     tfi(F){N};S$        
+465 :                    fi(ti,ti){dti;tfa(ti,ti,t     fi(F){N};S$         
+466 :                    i(ti,ti){dti;tfa(ti,ti,ti     i(F){N};S$          
+467 :                    (ti,ti){dti;tfa(ti,ti,ti)     (F){N};S$           
+468 :                    ti,ti){dti;tfa(ti,ti,ti);     F){N};S$            
+469 :F->ti               ti,ti){dti;tfa(ti,ti,ti);     F){N};S$            
+470 : SAVESTATE:          15
+470 :                    ti,ti){dti;tfa(ti,ti,ti);     ti){N};S$           
+471 :                    i,ti){dti;tfa(ti,ti,ti);i     i){N};S$            
+472 :                    ,ti){dti;tfa(ti,ti,ti);i=     ){N};S$             
+473 : TS_NOK/NS_NORULECHIN
+473 : RESSTATE            
+473 :                    ti,ti){dti;tfa(ti,ti,ti);     F){N};S$            
+474 :F->ti,F             ti,ti){dti;tfa(ti,ti,ti);     F){N};S$            
+475 : SAVESTATE:          15
+475 :                    ti,ti){dti;tfa(ti,ti,ti);     ti,F){N};S$         
+476 :                    i,ti){dti;tfa(ti,ti,ti);i     i,F){N};S$          
+477 :                    ,ti){dti;tfa(ti,ti,ti);i=     ,F){N};S$           
+478 :                    ti){dti;tfa(ti,ti,ti);i=a     F){N};S$            
+479 :F->ti               ti){dti;tfa(ti,ti,ti);i=a     F){N};S$            
+480 : SAVESTATE:          16
+480 :                    ti){dti;tfa(ti,ti,ti);i=a     ti){N};S$           
+481 :                    i){dti;tfa(ti,ti,ti);i=a(     i){N};S$            
+482 :                    ){dti;tfa(ti,ti,ti);i=a(i     ){N};S$             
+483 :                    {dti;tfa(ti,ti,ti);i=a(i,     {N};S$              
+484 :                    dti;tfa(ti,ti,ti);i=a(i,l     N};S$               
+485 :N->dti;N            dti;tfa(ti,ti,ti);i=a(i,l     N};S$               
+486 : SAVESTATE:          17
+486 :                    dti;tfa(ti,ti,ti);i=a(i,l     dti;N};S$           
+487 :                    ti;tfa(ti,ti,ti);i=a(i,l,     ti;N};S$            
+488 :                    i;tfa(ti,ti,ti);i=a(i,l,l     i;N};S$             
+489 :                    ;tfa(ti,ti,ti);i=a(i,l,l)     ;N};S$              
+490 :                    tfa(ti,ti,ti);i=a(i,l,l)+     N};S$               
+491 :N->tfa(F);N         tfa(ti,ti,ti);i=a(i,l,l)+     N};S$               
+492 : SAVESTATE:          18
+492 :                    tfa(ti,ti,ti);i=a(i,l,l)+     tfa(F);N};S$        
+493 :                    fa(ti,ti,ti);i=a(i,l,l)+i     fa(F);N};S$         
+494 :                    a(ti,ti,ti);i=a(i,l,l)+i;     a(F);N};S$          
+495 :                    (ti,ti,ti);i=a(i,l,l)+i;r     (F);N};S$           
+496 :                    ti,ti,ti);i=a(i,l,l)+i;ri     F);N};S$            
+497 :F->ti               ti,ti,ti);i=a(i,l,l)+i;ri     F);N};S$            
+498 : SAVESTATE:          19
+498 :                    ti,ti,ti);i=a(i,l,l)+i;ri     ti);N};S$           
+499 :                    i,ti,ti);i=a(i,l,l)+i;ri;     i);N};S$            
+500 :                    ,ti,ti);i=a(i,l,l)+i;ri;}     );N};S$             
+501 : TS_NOK/NS_NORULECHIN
+501 : RESSTATE            
+501 :                    ti,ti,ti);i=a(i,l,l)+i;ri     F);N};S$            
+502 :F->ti,F             ti,ti,ti);i=a(i,l,l)+i;ri     F);N};S$            
+503 : SAVESTATE:          19
+503 :                    ti,ti,ti);i=a(i,l,l)+i;ri     ti,F);N};S$         
+504 :                    i,ti,ti);i=a(i,l,l)+i;ri;     i,F);N};S$          
+505 :                    ,ti,ti);i=a(i,l,l)+i;ri;}     ,F);N};S$           
+506 :                    ti,ti);i=a(i,l,l)+i;ri;};     F);N};S$            
+507 :F->ti               ti,ti);i=a(i,l,l)+i;ri;};     F);N};S$            
+508 : SAVESTATE:          20
+508 :                    ti,ti);i=a(i,l,l)+i;ri;};     ti);N};S$           
+509 :                    i,ti);i=a(i,l,l)+i;ri;};m     i);N};S$            
+510 :                    ,ti);i=a(i,l,l)+i;ri;};m{     );N};S$             
+511 : TS_NOK/NS_NORULECHIN
+511 : RESSTATE            
+511 :                    ti,ti);i=a(i,l,l)+i;ri;};     F);N};S$            
+512 :F->ti,F             ti,ti);i=a(i,l,l)+i;ri;};     F);N};S$            
+513 : SAVESTATE:          20
+513 :                    ti,ti);i=a(i,l,l)+i;ri;};     ti,F);N};S$         
+514 :                    i,ti);i=a(i,l,l)+i;ri;};m     i,F);N};S$          
+515 :                    ,ti);i=a(i,l,l)+i;ri;};m{     ,F);N};S$           
+516 :                    ti);i=a(i,l,l)+i;ri;};m{d     F);N};S$            
+517 :F->ti               ti);i=a(i,l,l)+i;ri;};m{d     F);N};S$            
+518 : SAVESTATE:          21
+518 :                    ti);i=a(i,l,l)+i;ri;};m{d     ti);N};S$           
+519 :                    i);i=a(i,l,l)+i;ri;};m{dt     i);N};S$            
+520 :                    );i=a(i,l,l)+i;ri;};m{dti     );N};S$             
+521 :                    ;i=a(i,l,l)+i;ri;};m{dti;     ;N};S$              
+522 :                    i=a(i,l,l)+i;ri;};m{dti;d     N};S$               
+523 :N->i=E;N            i=a(i,l,l)+i;ri;};m{dti;d     N};S$               
+524 : SAVESTATE:          22
+524 :                    i=a(i,l,l)+i;ri;};m{dti;d     i=E;N};S$           
+525 :                    =a(i,l,l)+i;ri;};m{dti;dt     =E;N};S$            
+526 :                    a(i,l,l)+i;ri;};m{dti;dti     E;N};S$             
+527 :E->a(W)M            a(i,l,l)+i;ri;};m{dti;dti     E;N};S$             
+528 : SAVESTATE:          23
+528 :                    a(i,l,l)+i;ri;};m{dti;dti     a(W)M;N};S$         
+529 :                    (i,l,l)+i;ri;};m{dti;dti;     (W)M;N};S$          
+530 :                    i,l,l)+i;ri;};m{dti;dti;d     W)M;N};S$           
+531 :W->i,W              i,l,l)+i;ri;};m{dti;dti;d     W)M;N};S$           
+532 : SAVESTATE:          24
+532 :                    i,l,l)+i;ri;};m{dti;dti;d     i,W)M;N};S$         
+533 :                    ,l,l)+i;ri;};m{dti;dti;dt     ,W)M;N};S$          
+534 :                    l,l)+i;ri;};m{dti;dti;dti     W)M;N};S$           
+535 :W->l,W              l,l)+i;ri;};m{dti;dti;dti     W)M;N};S$           
+536 : SAVESTATE:          25
+536 :                    l,l)+i;ri;};m{dti;dti;dti     l,W)M;N};S$         
+537 :                    ,l)+i;ri;};m{dti;dti;dti;     ,W)M;N};S$          
+538 :                    l)+i;ri;};m{dti;dti;dti;d     W)M;N};S$           
+539 :W->l,W              l)+i;ri;};m{dti;dti;dti;d     W)M;N};S$           
+540 : SAVESTATE:          26
+540 :                    l)+i;ri;};m{dti;dti;dti;d     l,W)M;N};S$         
+541 :                    )+i;ri;};m{dti;dti;dti;dt     ,W)M;N};S$          
+542 : TS_NOK/NS_NORULECHIN
+542 : RESSTATE            
+542 :                    l)+i;ri;};m{dti;dti;dti;d     W)M;N};S$           
+543 :W->l                l)+i;ri;};m{dti;dti;dti;d     W)M;N};S$           
+544 : SAVESTATE:          26
+544 :                    l)+i;ri;};m{dti;dti;dti;d     l)M;N};S$           
+545 :                    )+i;ri;};m{dti;dti;dti;dt     )M;N};S$            
+546 :                    +i;ri;};m{dti;dti;dti;dti     M;N};S$             
+547 :M->+E               +i;ri;};m{dti;dti;dti;dti     M;N};S$             
+548 : SAVESTATE:          27
+548 :                    +i;ri;};m{dti;dti;dti;dti     +E;N};S$            
+549 :                    i;ri;};m{dti;dti;dti;dti;     E;N};S$             
+550 :E->i                i;ri;};m{dti;dti;dti;dti;     E;N};S$             
+551 : SAVESTATE:          28
+551 :                    i;ri;};m{dti;dti;dti;dti;     i;N};S$             
+552 :                    ;ri;};m{dti;dti;dti;dti;d     ;N};S$              
+553 :                    ri;};m{dti;dti;dti;dti;dt     N};S$               
+554 :N->rE;              ri;};m{dti;dti;dti;dti;dt     N};S$               
+555 : SAVESTATE:          29
+555 :                    ri;};m{dti;dti;dti;dti;dt     rE;};S$             
+556 :                    i;};m{dti;dti;dti;dti;dti     E;};S$              
+557 :E->i                i;};m{dti;dti;dti;dti;dti     E;};S$              
+558 : SAVESTATE:          30
+558 :                    i;};m{dti;dti;dti;dti;dti     i;};S$              
+559 :                    ;};m{dti;dti;dti;dti;dti;     ;};S$               
+560 :                    };m{dti;dti;dti;dti;dti;d     };S$                
+561 :                    ;m{dti;dti;dti;dti;dti;dt     ;S$                 
+562 :                    m{dti;dti;dti;dti;dti;dti     S$                  
+563 :S->m{N}             m{dti;dti;dti;dti;dti;dti     S$                  
+564 : SAVESTATE:          31
+564 :                    m{dti;dti;dti;dti;dti;dti     m{N}$               
+565 :                    {dti;dti;dti;dti;dti;dti;     {N}$                
+566 :                    dti;dti;dti;dti;dti;dti;t     N}$                 
+567 :N->dti;N            dti;dti;dti;dti;dti;dti;t     N}$                 
+568 : SAVESTATE:          32
+568 :                    dti;dti;dti;dti;dti;dti;t     dti;N}$             
+569 :                    ti;dti;dti;dti;dti;dti;tf     ti;N}$              
+570 :                    i;dti;dti;dti;dti;dti;tfs     i;N}$               
+571 :                    ;dti;dti;dti;dti;dti;tfs(     ;N}$                
+572 :                    dti;dti;dti;dti;dti;tfs(t     N}$                 
+573 :N->dti;N            dti;dti;dti;dti;dti;tfs(t     N}$                 
+574 : SAVESTATE:          33
+574 :                    dti;dti;dti;dti;dti;tfs(t     dti;N}$             
+575 :                    ti;dti;dti;dti;dti;tfs(ti     ti;N}$              
+576 :                    i;dti;dti;dti;dti;tfs(ti)     i;N}$               
+577 :                    ;dti;dti;dti;dti;tfs(ti);     ;N}$                
+578 :                    dti;dti;dti;dti;tfs(ti);i     N}$                 
+579 :N->dti;N            dti;dti;dti;dti;tfs(ti);i     N}$                 
+580 : SAVESTATE:          34
+580 :                    dti;dti;dti;dti;tfs(ti);i     dti;N}$             
+581 :                    ti;dti;dti;dti;tfs(ti);i=     ti;N}$              
+582 :                    i;dti;dti;dti;tfs(ti);i=l     i;N}$               
+583 :                    ;dti;dti;dti;tfs(ti);i=l;     ;N}$                
+584 :                    dti;dti;dti;tfs(ti);i=l;i     N}$                 
+585 :N->dti;N            dti;dti;dti;tfs(ti);i=l;i     N}$                 
+586 : SAVESTATE:          35
+586 :                    dti;dti;dti;tfs(ti);i=l;i     dti;N}$             
+587 :                    ti;dti;dti;tfs(ti);i=l;i=     ti;N}$              
+588 :                    i;dti;dti;tfs(ti);i=l;i=l     i;N}$               
+589 :                    ;dti;dti;tfs(ti);i=l;i=l;     ;N}$                
+590 :                    dti;dti;tfs(ti);i=l;i=l;i     N}$                 
+591 :N->dti;N            dti;dti;tfs(ti);i=l;i=l;i     N}$                 
+592 : SAVESTATE:          36
+592 :                    dti;dti;tfs(ti);i=l;i=l;i     dti;N}$             
+593 :                    ti;dti;tfs(ti);i=l;i=l;i=     ti;N}$              
+594 :                    i;dti;tfs(ti);i=l;i=l;i=l     i;N}$               
+595 :                    ;dti;tfs(ti);i=l;i=l;i=l;     ;N}$                
+596 :                    dti;tfs(ti);i=l;i=l;i=l;i     N}$                 
+597 :N->dti;N            dti;tfs(ti);i=l;i=l;i=l;i     N}$                 
+598 : SAVESTATE:          37
+598 :                    dti;tfs(ti);i=l;i=l;i=l;i     dti;N}$             
+599 :                    ti;tfs(ti);i=l;i=l;i=l;i=     ti;N}$              
+600 :                    i;tfs(ti);i=l;i=l;i=l;i=l     i;N}$               
+601 :                    ;tfs(ti);i=l;i=l;i=l;i=l;     ;N}$                
+602 :                    tfs(ti);i=l;i=l;i=l;i=l;i     N}$                 
+603 :N->tfa(F);N         tfs(ti);i=l;i=l;i=l;i=l;i     N}$                 
+604 : SAVESTATE:          38
+604 :                    tfs(ti);i=l;i=l;i=l;i=l;i     tfa(F);N}$          
+605 :                    fs(ti);i=l;i=l;i=l;i=l;i=     fa(F);N}$           
+606 :                    s(ti);i=l;i=l;i=l;i=l;i=i     a(F);N}$            
+607 : TS_NOK/NS_NORULECHIN
+607 : RESSTATE            
+607 :                    tfs(ti);i=l;i=l;i=l;i=l;i     N}$                 
+608 :N->tfs(F);N         tfs(ti);i=l;i=l;i=l;i=l;i     N}$                 
+609 : SAVESTATE:          38
+609 :                    tfs(ti);i=l;i=l;i=l;i=l;i     tfs(F);N}$          
+610 :                    fs(ti);i=l;i=l;i=l;i=l;i=     fs(F);N}$           
+611 :                    s(ti);i=l;i=l;i=l;i=l;i=i     s(F);N}$            
+612 :                    (ti);i=l;i=l;i=l;i=l;i=i(     (F);N}$             
+613 :                    ti);i=l;i=l;i=l;i=l;i=i(i     F);N}$              
+614 :F->ti               ti);i=l;i=l;i=l;i=l;i=i(i     F);N}$              
+615 : SAVESTATE:          39
+615 :                    ti);i=l;i=l;i=l;i=l;i=i(i     ti);N}$             
+616 :                    i);i=l;i=l;i=l;i=l;i=i(i,     i);N}$              
+617 :                    );i=l;i=l;i=l;i=l;i=i(i,i     );N}$               
+618 :                    ;i=l;i=l;i=l;i=l;i=i(i,i)     ;N}$                
+619 :                    i=l;i=l;i=l;i=l;i=i(i,i);     N}$                 
+620 :N->i=E;N            i=l;i=l;i=l;i=l;i=i(i,i);     N}$                 
+621 : SAVESTATE:          40
+621 :                    i=l;i=l;i=l;i=l;i=i(i,i);     i=E;N}$             
+622 :                    =l;i=l;i=l;i=l;i=i(i,i);i     =E;N}$              
+623 :                    l;i=l;i=l;i=l;i=i(i,i);i=     E;N}$               
+624 :E->l                l;i=l;i=l;i=l;i=i(i,i);i=     E;N}$               
+625 : SAVESTATE:          41
+625 :                    l;i=l;i=l;i=l;i=i(i,i);i=     l;N}$               
+626 :                    ;i=l;i=l;i=l;i=i(i,i);i=i     ;N}$                
+627 :                    i=l;i=l;i=l;i=i(i,i);i=i(     N}$                 
+628 :N->i=E;N            i=l;i=l;i=l;i=i(i,i);i=i(     N}$                 
+629 : SAVESTATE:          42
+629 :                    i=l;i=l;i=l;i=i(i,i);i=i(     i=E;N}$             
+630 :                    =l;i=l;i=l;i=i(i,i);i=i(i     =E;N}$              
+631 :                    l;i=l;i=l;i=i(i,i);i=i(i,     E;N}$               
+632 :E->l                l;i=l;i=l;i=i(i,i);i=i(i,     E;N}$               
+633 : SAVESTATE:          43
+633 :                    l;i=l;i=l;i=i(i,i);i=i(i,     l;N}$               
+634 :                    ;i=l;i=l;i=i(i,i);i=i(i,i     ;N}$                
+635 :                    i=l;i=l;i=i(i,i);i=i(i,i)     N}$                 
+636 :N->i=E;N            i=l;i=l;i=i(i,i);i=i(i,i)     N}$                 
+637 : SAVESTATE:          44
+637 :                    i=l;i=l;i=i(i,i);i=i(i,i)     i=E;N}$             
+638 :                    =l;i=l;i=i(i,i);i=i(i,i);     =E;N}$              
+639 :                    l;i=l;i=i(i,i);i=i(i,i);p     E;N}$               
+640 :E->l                l;i=l;i=i(i,i);i=i(i,i);p     E;N}$               
+641 : SAVESTATE:          45
+641 :                    l;i=l;i=i(i,i);i=i(i,i);p     l;N}$               
+642 :                    ;i=l;i=i(i,i);i=i(i,i);pl     ;N}$                
+643 :                    i=l;i=i(i,i);i=i(i,i);pl;     N}$                 
+644 :N->i=E;N            i=l;i=i(i,i);i=i(i,i);pl;     N}$                 
+645 : SAVESTATE:          46
+645 :                    i=l;i=i(i,i);i=i(i,i);pl;     i=E;N}$             
+646 :                    =l;i=i(i,i);i=i(i,i);pl;p     =E;N}$              
+647 :                    l;i=i(i,i);i=i(i,i);pl;pi     E;N}$               
+648 :E->l                l;i=i(i,i);i=i(i,i);pl;pi     E;N}$               
+649 : SAVESTATE:          47
+649 :                    l;i=i(i,i);i=i(i,i);pl;pi     l;N}$               
+650 :                    ;i=i(i,i);i=i(i,i);pl;pi;     ;N}$                
+651 :                    i=i(i,i);i=i(i,i);pl;pi;p     N}$                 
+652 :N->i=E;N            i=i(i,i);i=i(i,i);pl;pi;p     N}$                 
+653 : SAVESTATE:          48
+653 :                    i=i(i,i);i=i(i,i);pl;pi;p     i=E;N}$             
+654 :                    =i(i,i);i=i(i,i);pl;pi;pi     =E;N}$              
+655 :                    i(i,i);i=i(i,i);pl;pi;pi;     E;N}$               
+656 :E->i                i(i,i);i=i(i,i);pl;pi;pi;     E;N}$               
+657 : SAVESTATE:          49
+657 :                    i(i,i);i=i(i,i);pl;pi;pi;     i;N}$               
+658 :                    (i,i);i=i(i,i);pl;pi;pi;p     ;N}$                
+659 : TS_NOK/NS_NORULECHIN
+659 : RESSTATE            
+659 :                    i(i,i);i=i(i,i);pl;pi;pi;     E;N}$               
+660 :E->iM               i(i,i);i=i(i,i);pl;pi;pi;     E;N}$               
+661 : SAVESTATE:          49
+661 :                    i(i,i);i=i(i,i);pl;pi;pi;     iM;N}$              
+662 :                    (i,i);i=i(i,i);pl;pi;pi;p     M;N}$               
+663 : TNS_NORULECHAIN/NS_NORULE
+663 : RESSTATE            
+663 :                    i(i,i);i=i(i,i);pl;pi;pi;     E;N}$               
+664 :E->i(W)             i(i,i);i=i(i,i);pl;pi;pi;     E;N}$               
+665 : SAVESTATE:          49
+665 :                    i(i,i);i=i(i,i);pl;pi;pi;     i(W);N}$            
+666 :                    (i,i);i=i(i,i);pl;pi;pi;p     (W);N}$             
+667 :                    i,i);i=i(i,i);pl;pi;pi;ps     W);N}$              
+668 :W->i,W              i,i);i=i(i,i);pl;pi;pi;ps     W);N}$              
+669 : SAVESTATE:          50
+669 :                    i,i);i=i(i,i);pl;pi;pi;ps     i,W);N}$            
+670 :                    ,i);i=i(i,i);pl;pi;pi;ps(     ,W);N}$             
+671 :                    i);i=i(i,i);pl;pi;pi;ps(i     W);N}$              
+672 :W->i,W              i);i=i(i,i);pl;pi;pi;ps(i     W);N}$              
+673 : SAVESTATE:          51
+673 :                    i);i=i(i,i);pl;pi;pi;ps(i     i,W);N}$            
+674 :                    );i=i(i,i);pl;pi;pi;ps(i)     ,W);N}$             
+675 : TS_NOK/NS_NORULECHIN
+675 : RESSTATE            
+675 :                    i);i=i(i,i);pl;pi;pi;ps(i     W);N}$              
+676 :W->i                i);i=i(i,i);pl;pi;pi;ps(i     W);N}$              
+677 : SAVESTATE:          51
+677 :                    i);i=i(i,i);pl;pi;pi;ps(i     i);N}$              
+678 :                    );i=i(i,i);pl;pi;pi;ps(i)     );N}$               
+679 :                    ;i=i(i,i);pl;pi;pi;ps(i);     ;N}$                
+680 :                    i=i(i,i);pl;pi;pi;ps(i);r     N}$                 
+681 :N->i=E;N            i=i(i,i);pl;pi;pi;ps(i);r     N}$                 
+682 : SAVESTATE:          52
+682 :                    i=i(i,i);pl;pi;pi;ps(i);r     i=E;N}$             
+683 :                    =i(i,i);pl;pi;pi;ps(i);rl     =E;N}$              
+684 :                    i(i,i);pl;pi;pi;ps(i);rl;     E;N}$               
+685 :E->i                i(i,i);pl;pi;pi;ps(i);rl;     E;N}$               
+686 : SAVESTATE:          53
+686 :                    i(i,i);pl;pi;pi;ps(i);rl;     i;N}$               
+687 :                    (i,i);pl;pi;pi;ps(i);rl;}     ;N}$                
+688 : TS_NOK/NS_NORULECHIN
+688 : RESSTATE            
+688 :                    i(i,i);pl;pi;pi;ps(i);rl;     E;N}$               
+689 :E->iM               i(i,i);pl;pi;pi;ps(i);rl;     E;N}$               
+690 : SAVESTATE:          53
+690 :                    i(i,i);pl;pi;pi;ps(i);rl;     iM;N}$              
+691 :                    (i,i);pl;pi;pi;ps(i);rl;}     M;N}$               
+692 : TNS_NORULECHAIN/NS_NORULE
+692 : RESSTATE            
+692 :                    i(i,i);pl;pi;pi;ps(i);rl;     E;N}$               
+693 :E->i(W)             i(i,i);pl;pi;pi;ps(i);rl;     E;N}$               
+694 : SAVESTATE:          53
+694 :                    i(i,i);pl;pi;pi;ps(i);rl;     i(W);N}$            
+695 :                    (i,i);pl;pi;pi;ps(i);rl;}     (W);N}$             
+696 :                    i,i);pl;pi;pi;ps(i);rl;};     W);N}$              
+697 :W->i,W              i,i);pl;pi;pi;ps(i);rl;};     W);N}$              
+698 : SAVESTATE:          54
+698 :                    i,i);pl;pi;pi;ps(i);rl;};     i,W);N}$            
+699 :                    ,i);pl;pi;pi;ps(i);rl;};      ,W);N}$             
+700 :                    i);pl;pi;pi;ps(i);rl;};       W);N}$              
+701 :W->i,W              i);pl;pi;pi;ps(i);rl;};       W);N}$              
+702 : SAVESTATE:          55
+702 :                    i);pl;pi;pi;ps(i);rl;};       i,W);N}$            
+703 :                    );pl;pi;pi;ps(i);rl;};        ,W);N}$             
+704 : TS_NOK/NS_NORULECHIN
+704 : RESSTATE            
+704 :                    i);pl;pi;pi;ps(i);rl;};       W);N}$              
+705 :W->i                i);pl;pi;pi;ps(i);rl;};       W);N}$              
+706 : SAVESTATE:          55
+706 :                    i);pl;pi;pi;ps(i);rl;};       i);N}$              
+707 :                    );pl;pi;pi;ps(i);rl;};        );N}$               
+708 :                    ;pl;pi;pi;ps(i);rl;};         ;N}$                
+709 :                    pl;pi;pi;ps(i);rl;};          N}$                 
+710 :N->pE;N             pl;pi;pi;ps(i);rl;};          N}$                 
+711 : SAVESTATE:          56
+711 :                    pl;pi;pi;ps(i);rl;};          pE;N}$              
+712 :                    l;pi;pi;ps(i);rl;};           E;N}$               
+713 :E->l                l;pi;pi;ps(i);rl;};           E;N}$               
+714 : SAVESTATE:          57
+714 :                    l;pi;pi;ps(i);rl;};           l;N}$               
+715 :                    ;pi;pi;ps(i);rl;};            ;N}$                
+716 :                    pi;pi;ps(i);rl;};             N}$                 
+717 :N->pE;N             pi;pi;ps(i);rl;};             N}$                 
+718 : SAVESTATE:          58
+718 :                    pi;pi;ps(i);rl;};             pE;N}$              
+719 :                    i;pi;ps(i);rl;};              E;N}$               
+720 :E->i                i;pi;ps(i);rl;};              E;N}$               
+721 : SAVESTATE:          59
+721 :                    i;pi;ps(i);rl;};              i;N}$               
+722 :                    ;pi;ps(i);rl;};               ;N}$                
+723 :                    pi;ps(i);rl;};                N}$                 
+724 :N->pE;N             pi;ps(i);rl;};                N}$                 
+725 : SAVESTATE:          60
+725 :                    pi;ps(i);rl;};                pE;N}$              
+726 :                    i;ps(i);rl;};                 E;N}$               
+727 :E->i                i;ps(i);rl;};                 E;N}$               
+728 : SAVESTATE:          61
+728 :                    i;ps(i);rl;};                 i;N}$               
+729 :                    ;ps(i);rl;};                  ;N}$                
+730 :                    ps(i);rl;};                   N}$                 
+731 :N->pE;N             ps(i);rl;};                   N}$                 
+732 : SAVESTATE:          62
+732 :                    ps(i);rl;};                   pE;N}$              
+733 :                    s(i);rl;};                    E;N}$               
+734 :E->s(W)M            s(i);rl;};                    E;N}$               
+735 : SAVESTATE:          63
+735 :                    s(i);rl;};                    s(W)M;N}$           
+736 :                    (i);rl;};                     (W)M;N}$            
+737 :                    i);rl;};                      W)M;N}$             
+738 :W->i,W              i);rl;};                      W)M;N}$             
+739 : SAVESTATE:          64
+739 :                    i);rl;};                      i,W)M;N}$           
+740 :                    );rl;};                       ,W)M;N}$            
+741 : TS_NOK/NS_NORULECHIN
+741 : RESSTATE            
+741 :                    i);rl;};                      W)M;N}$             
+742 :W->i                i);rl;};                      W)M;N}$             
+743 : SAVESTATE:          64
+743 :                    i);rl;};                      i)M;N}$             
+744 :                    );rl;};                       )M;N}$              
+745 :                    ;rl;};                        M;N}$               
+746 : TNS_NORULECHAIN/NS_NORULE
+746 : RESSTATE            
+746 :                    i);rl;};                      W)M;N}$             
+747 : TNS_NORULECHAIN/NS_NORULE
+747 : RESSTATE            
+747 :                    s(i);rl;};                    E;N}$               
+748 :E->s(W)             s(i);rl;};                    E;N}$               
+749 : SAVESTATE:          63
+749 :                    s(i);rl;};                    s(W);N}$            
+750 :                    (i);rl;};                     (W);N}$             
+751 :                    i);rl;};                      W);N}$              
+752 :W->i,W              i);rl;};                      W);N}$              
+753 : SAVESTATE:          64
+753 :                    i);rl;};                      i,W);N}$            
+754 :                    );rl;};                       ,W);N}$             
+755 : TS_NOK/NS_NORULECHIN
+755 : RESSTATE            
+755 :                    i);rl;};                      W);N}$              
+756 :W->i                i);rl;};                      W);N}$              
+757 : SAVESTATE:          64
+757 :                    i);rl;};                      i);N}$              
+758 :                    );rl;};                       );N}$               
+759 :                    ;rl;};                        ;N}$                
+760 :                    rl;};                         N}$                 
+761 :N->rE;              rl;};                         N}$                 
+762 : SAVESTATE:          65
+762 :                    rl;};                         rE;}$               
+763 :                    l;};                          E;}$                
+764 :E->l                l;};                          E;}$                
+765 : SAVESTATE:          66
+765 :                    l;};                          l;}$                
+766 :                    ;};                           ;}$                 
+767 :                    };                            }$                  
+768 :                    ;                             $                   
+769 : TS_NOK/NS_NORULECHIN
+769 : RESSTATE            
+769 :                    l;};                          E;}$                
+770 : TNS_NORULECHAIN/NS_NORULE
+770 : RESSTATE            
+770 :                    rl;};                         N}$                 
+771 : TNS_NORULECHAIN/NS_NORULE
+771 : RESSTATE            
+771 :                    i);rl;};                      W);N}$              
+772 : TNS_NORULECHAIN/NS_NORULE
+772 : RESSTATE            
+772 :                    s(i);rl;};                    E;N}$               
+773 : TNS_NORULECHAIN/NS_NORULE
+773 : RESSTATE            
+773 :                    ps(i);rl;};                   N}$                 
+774 : TNS_NORULECHAIN/NS_NORULE
+774 : RESSTATE            
+774 :                    i;ps(i);rl;};                 E;N}$               
+775 :E->iM               i;ps(i);rl;};                 E;N}$               
+776 : SAVESTATE:          61
+776 :                    i;ps(i);rl;};                 iM;N}$              
+777 :                    ;ps(i);rl;};                  M;N}$               
+778 : TNS_NORULECHAIN/NS_NORULE
+778 : RESSTATE            
+778 :                    i;ps(i);rl;};                 E;N}$               
+779 :E->i(W)             i;ps(i);rl;};                 E;N}$               
+780 : SAVESTATE:          61
+780 :                    i;ps(i);rl;};                 i(W);N}$            
+781 :                    ;ps(i);rl;};                  (W);N}$             
+782 : TS_NOK/NS_NORULECHIN
+782 : RESSTATE            
+782 :                    i;ps(i);rl;};                 E;N}$               
+783 : TNS_NORULECHAIN/NS_NORULE
+783 : RESSTATE            
+783 :                    pi;ps(i);rl;};                N}$                 
+784 : TNS_NORULECHAIN/NS_NORULE
+784 : RESSTATE            
+784 :                    i;pi;ps(i);rl;};              E;N}$               
+785 :E->iM               i;pi;ps(i);rl;};              E;N}$               
+786 : SAVESTATE:          59
+786 :                    i;pi;ps(i);rl;};              iM;N}$              
+787 :                    ;pi;ps(i);rl;};               M;N}$               
+788 : TNS_NORULECHAIN/NS_NORULE
+788 : RESSTATE            
+788 :                    i;pi;ps(i);rl;};              E;N}$               
+789 :E->i(W)             i;pi;ps(i);rl;};              E;N}$               
+790 : SAVESTATE:          59
+790 :                    i;pi;ps(i);rl;};              i(W);N}$            
+791 :                    ;pi;ps(i);rl;};               (W);N}$             
+792 : TS_NOK/NS_NORULECHIN
+792 : RESSTATE            
+792 :                    i;pi;ps(i);rl;};              E;N}$               
+793 : TNS_NORULECHAIN/NS_NORULE
+793 : RESSTATE            
+793 :                    pi;pi;ps(i);rl;};             N}$                 
+794 : TNS_NORULECHAIN/NS_NORULE
+794 : RESSTATE            
+794 :                    l;pi;pi;ps(i);rl;};           E;N}$               
+795 : TNS_NORULECHAIN/NS_NORULE
+795 : RESSTATE            
+795 :                    pl;pi;pi;ps(i);rl;};          N}$                 
+796 : TNS_NORULECHAIN/NS_NORULE
+796 : RESSTATE            
+796 :                    i);pl;pi;pi;ps(i);rl;};       W);N}$              
+797 : TNS_NORULECHAIN/NS_NORULE
+797 : RESSTATE            
+797 :                    i,i);pl;pi;pi;ps(i);rl;};     W);N}$              
+798 :W->i                i,i);pl;pi;pi;ps(i);rl;};     W);N}$              
+799 : SAVESTATE:          54
+799 :                    i,i);pl;pi;pi;ps(i);rl;};     i);N}$              
+800 :                    ,i);pl;pi;pi;ps(i);rl;};      );N}$               
+801 : TS_NOK/NS_NORULECHIN
+801 : RESSTATE            
+801 :                    i,i);pl;pi;pi;ps(i);rl;};     W);N}$              
+802 : TNS_NORULECHAIN/NS_NORULE
+802 : RESSTATE            
+802 :                    i(i,i);pl;pi;pi;ps(i);rl;     E;N}$               
+803 : TNS_NORULECHAIN/NS_NORULE
+803 : RESSTATE            
+803 :                    i=i(i,i);pl;pi;pi;ps(i);r     N}$                 
+804 : TNS_NORULECHAIN/NS_NORULE
+804 : RESSTATE            
+804 :                    i);i=i(i,i);pl;pi;pi;ps(i     W);N}$              
+805 : TNS_NORULECHAIN/NS_NORULE
+805 : RESSTATE            
+805 :                    i,i);i=i(i,i);pl;pi;pi;ps     W);N}$              
+806 :W->i                i,i);i=i(i,i);pl;pi;pi;ps     W);N}$              
+807 : SAVESTATE:          50
+807 :                    i,i);i=i(i,i);pl;pi;pi;ps     i);N}$              
+808 :                    ,i);i=i(i,i);pl;pi;pi;ps(     );N}$               
+809 : TS_NOK/NS_NORULECHIN
+809 : RESSTATE            
+809 :                    i,i);i=i(i,i);pl;pi;pi;ps     W);N}$              
+810 : TNS_NORULECHAIN/NS_NORULE
+810 : RESSTATE            
+810 :                    i(i,i);i=i(i,i);pl;pi;pi;     E;N}$               
+811 : TNS_NORULECHAIN/NS_NORULE
+811 : RESSTATE            
+811 :                    i=i(i,i);i=i(i,i);pl;pi;p     N}$                 
+812 : TNS_NORULECHAIN/NS_NORULE
+812 : RESSTATE            
+812 :                    l;i=i(i,i);i=i(i,i);pl;pi     E;N}$               
+813 : TNS_NORULECHAIN/NS_NORULE
+813 : RESSTATE            
+813 :                    i=l;i=i(i,i);i=i(i,i);pl;     N}$                 
+814 : TNS_NORULECHAIN/NS_NORULE
+814 : RESSTATE            
+814 :                    l;i=l;i=i(i,i);i=i(i,i);p     E;N}$               
+815 : TNS_NORULECHAIN/NS_NORULE
+815 : RESSTATE            
+815 :                    i=l;i=l;i=i(i,i);i=i(i,i)     N}$                 
+816 : TNS_NORULECHAIN/NS_NORULE
+816 : RESSTATE            
+816 :                    l;i=l;i=l;i=i(i,i);i=i(i,     E;N}$               
+817 : TNS_NORULECHAIN/NS_NORULE
+817 : RESSTATE            
+817 :                    i=l;i=l;i=l;i=i(i,i);i=i(     N}$                 
+818 : TNS_NORULECHAIN/NS_NORULE
+818 : RESSTATE            
+818 :                    l;i=l;i=l;i=l;i=i(i,i);i=     E;N}$               
+819 : TNS_NORULECHAIN/NS_NORULE
+819 : RESSTATE            
+819 :                    i=l;i=l;i=l;i=l;i=i(i,i);     N}$                 
+820 : TNS_NORULECHAIN/NS_NORULE
+820 : RESSTATE            
+820 :                    ti);i=l;i=l;i=l;i=l;i=i(i     F);N}$              
+821 :F->ti,F             ti);i=l;i=l;i=l;i=l;i=i(i     F);N}$              
+822 : SAVESTATE:          39
+822 :                    ti);i=l;i=l;i=l;i=l;i=i(i     ti,F);N}$           
+823 :                    i);i=l;i=l;i=l;i=l;i=i(i,     i,F);N}$            
+824 :                    );i=l;i=l;i=l;i=l;i=i(i,i     ,F);N}$             
+825 : TS_NOK/NS_NORULECHIN
+825 : RESSTATE            
+825 :                    ti);i=l;i=l;i=l;i=l;i=i(i     F);N}$              
+826 : TNS_NORULECHAIN/NS_NORULE
+826 : RESSTATE            
+826 :                    tfs(ti);i=l;i=l;i=l;i=l;i     N}$                 
+827 : TNS_NORULECHAIN/NS_NORULE
+827 : RESSTATE            
+827 :                    dti;tfs(ti);i=l;i=l;i=l;i     N}$                 
+828 :N->dti=E;N          dti;tfs(ti);i=l;i=l;i=l;i     N}$                 
+829 : SAVESTATE:          37
+829 :                    dti;tfs(ti);i=l;i=l;i=l;i     dti=E;N}$           
+830 :                    ti;tfs(ti);i=l;i=l;i=l;i=     ti=E;N}$            
+831 :                    i;tfs(ti);i=l;i=l;i=l;i=l     i=E;N}$             
+832 :                    ;tfs(ti);i=l;i=l;i=l;i=l;     =E;N}$              
+833 : TS_NOK/NS_NORULECHIN
+833 : RESSTATE            
+833 :                    dti;tfs(ti);i=l;i=l;i=l;i     N}$                 
+834 : TNS_NORULECHAIN/NS_NORULE
+834 : RESSTATE            
+834 :                    dti;dti;tfs(ti);i=l;i=l;i     N}$                 
+835 :N->dti=E;N          dti;dti;tfs(ti);i=l;i=l;i     N}$                 
+836 : SAVESTATE:          36
+836 :                    dti;dti;tfs(ti);i=l;i=l;i     dti=E;N}$           
+837 :                    ti;dti;tfs(ti);i=l;i=l;i=     ti=E;N}$            
+838 :                    i;dti;tfs(ti);i=l;i=l;i=l     i=E;N}$             
+839 :                    ;dti;tfs(ti);i=l;i=l;i=l;     =E;N}$              
+840 : TS_NOK/NS_NORULECHIN
+840 : RESSTATE            
+840 :                    dti;dti;tfs(ti);i=l;i=l;i     N}$                 
+841 : TNS_NORULECHAIN/NS_NORULE
+841 : RESSTATE            
+841 :                    dti;dti;dti;tfs(ti);i=l;i     N}$                 
+842 :N->dti=E;N          dti;dti;dti;tfs(ti);i=l;i     N}$                 
+843 : SAVESTATE:          35
+843 :                    dti;dti;dti;tfs(ti);i=l;i     dti=E;N}$           
+844 :                    ti;dti;dti;tfs(ti);i=l;i=     ti=E;N}$            
+845 :                    i;dti;dti;tfs(ti);i=l;i=l     i=E;N}$             
+846 :                    ;dti;dti;tfs(ti);i=l;i=l;     =E;N}$              
+847 : TS_NOK/NS_NORULECHIN
+847 : RESSTATE            
+847 :                    dti;dti;dti;tfs(ti);i=l;i     N}$                 
+848 : TNS_NORULECHAIN/NS_NORULE
+848 : RESSTATE            
+848 :                    dti;dti;dti;dti;tfs(ti);i     N}$                 
+849 :N->dti=E;N          dti;dti;dti;dti;tfs(ti);i     N}$                 
+850 : SAVESTATE:          34
+850 :                    dti;dti;dti;dti;tfs(ti);i     dti=E;N}$           
+851 :                    ti;dti;dti;dti;tfs(ti);i=     ti=E;N}$            
+852 :                    i;dti;dti;dti;tfs(ti);i=l     i=E;N}$             
+853 :                    ;dti;dti;dti;tfs(ti);i=l;     =E;N}$              
+854 : TS_NOK/NS_NORULECHIN
+854 : RESSTATE            
+854 :                    dti;dti;dti;dti;tfs(ti);i     N}$                 
+855 : TNS_NORULECHAIN/NS_NORULE
+855 : RESSTATE            
+855 :                    dti;dti;dti;dti;dti;tfs(t     N}$                 
+856 :N->dti=E;N          dti;dti;dti;dti;dti;tfs(t     N}$                 
+857 : SAVESTATE:          33
+857 :                    dti;dti;dti;dti;dti;tfs(t     dti=E;N}$           
+858 :                    ti;dti;dti;dti;dti;tfs(ti     ti=E;N}$            
+859 :                    i;dti;dti;dti;dti;tfs(ti)     i=E;N}$             
+860 :                    ;dti;dti;dti;dti;tfs(ti);     =E;N}$              
+861 : TS_NOK/NS_NORULECHIN
+861 : RESSTATE            
+861 :                    dti;dti;dti;dti;dti;tfs(t     N}$                 
+862 : TNS_NORULECHAIN/NS_NORULE
+862 : RESSTATE            
+862 :                    dti;dti;dti;dti;dti;dti;t     N}$                 
+863 :N->dti=E;N          dti;dti;dti;dti;dti;dti;t     N}$                 
+864 : SAVESTATE:          32
+864 :                    dti;dti;dti;dti;dti;dti;t     dti=E;N}$           
+865 :                    ti;dti;dti;dti;dti;dti;tf     ti=E;N}$            
+866 :                    i;dti;dti;dti;dti;dti;tfs     i=E;N}$             
+867 :                    ;dti;dti;dti;dti;dti;tfs(     =E;N}$              
+868 : TS_NOK/NS_NORULECHIN
+868 : RESSTATE            
+868 :                    dti;dti;dti;dti;dti;dti;t     N}$                 
+869 : TNS_NORULECHAIN/NS_NORULE
+869 : RESSTATE            
+869 :                    m{dti;dti;dti;dti;dti;dti     S$                  
+870 :S->m{N};            m{dti;dti;dti;dti;dti;dti     S$                  
+871 : SAVESTATE:          31
+871 :                    m{dti;dti;dti;dti;dti;dti     m{N};$              
+872 :                    {dti;dti;dti;dti;dti;dti;     {N};$               
+873 :                    dti;dti;dti;dti;dti;dti;t     N};$                
+874 :N->dti;N            dti;dti;dti;dti;dti;dti;t     N};$                
+875 : SAVESTATE:          32
+875 :                    dti;dti;dti;dti;dti;dti;t     dti;N};$            
+876 :                    ti;dti;dti;dti;dti;dti;tf     ti;N};$             
+877 :                    i;dti;dti;dti;dti;dti;tfs     i;N};$              
+878 :                    ;dti;dti;dti;dti;dti;tfs(     ;N};$               
+879 :                    dti;dti;dti;dti;dti;tfs(t     N};$                
+880 :N->dti;N            dti;dti;dti;dti;dti;tfs(t     N};$                
+881 : SAVESTATE:          33
+881 :                    dti;dti;dti;dti;dti;tfs(t     dti;N};$            
+882 :                    ti;dti;dti;dti;dti;tfs(ti     ti;N};$             
+883 :                    i;dti;dti;dti;dti;tfs(ti)     i;N};$              
+884 :                    ;dti;dti;dti;dti;tfs(ti);     ;N};$               
+885 :                    dti;dti;dti;dti;tfs(ti);i     N};$                
+886 :N->dti;N            dti;dti;dti;dti;tfs(ti);i     N};$                
+887 : SAVESTATE:          34
+887 :                    dti;dti;dti;dti;tfs(ti);i     dti;N};$            
+888 :                    ti;dti;dti;dti;tfs(ti);i=     ti;N};$             
+889 :                    i;dti;dti;dti;tfs(ti);i=l     i;N};$              
+890 :                    ;dti;dti;dti;tfs(ti);i=l;     ;N};$               
+891 :                    dti;dti;dti;tfs(ti);i=l;i     N};$                
+892 :N->dti;N            dti;dti;dti;tfs(ti);i=l;i     N};$                
+893 : SAVESTATE:          35
+893 :                    dti;dti;dti;tfs(ti);i=l;i     dti;N};$            
+894 :                    ti;dti;dti;tfs(ti);i=l;i=     ti;N};$             
+895 :                    i;dti;dti;tfs(ti);i=l;i=l     i;N};$              
+896 :                    ;dti;dti;tfs(ti);i=l;i=l;     ;N};$               
+897 :                    dti;dti;tfs(ti);i=l;i=l;i     N};$                
+898 :N->dti;N            dti;dti;tfs(ti);i=l;i=l;i     N};$                
+899 : SAVESTATE:          36
+899 :                    dti;dti;tfs(ti);i=l;i=l;i     dti;N};$            
+900 :                    ti;dti;tfs(ti);i=l;i=l;i=     ti;N};$             
+901 :                    i;dti;tfs(ti);i=l;i=l;i=l     i;N};$              
+902 :                    ;dti;tfs(ti);i=l;i=l;i=l;     ;N};$               
+903 :                    dti;tfs(ti);i=l;i=l;i=l;i     N};$                
+904 :N->dti;N            dti;tfs(ti);i=l;i=l;i=l;i     N};$                
+905 : SAVESTATE:          37
+905 :                    dti;tfs(ti);i=l;i=l;i=l;i     dti;N};$            
+906 :                    ti;tfs(ti);i=l;i=l;i=l;i=     ti;N};$             
+907 :                    i;tfs(ti);i=l;i=l;i=l;i=l     i;N};$              
+908 :                    ;tfs(ti);i=l;i=l;i=l;i=l;     ;N};$               
+909 :                    tfs(ti);i=l;i=l;i=l;i=l;i     N};$                
+910 :N->tfa(F);N         tfs(ti);i=l;i=l;i=l;i=l;i     N};$                
+911 : SAVESTATE:          38
+911 :                    tfs(ti);i=l;i=l;i=l;i=l;i     tfa(F);N};$         
+912 :                    fs(ti);i=l;i=l;i=l;i=l;i=     fa(F);N};$          
+913 :                    s(ti);i=l;i=l;i=l;i=l;i=i     a(F);N};$           
+914 : TS_NOK/NS_NORULECHIN
+914 : RESSTATE            
+914 :                    tfs(ti);i=l;i=l;i=l;i=l;i     N};$                
+915 :N->tfs(F);N         tfs(ti);i=l;i=l;i=l;i=l;i     N};$                
+916 : SAVESTATE:          38
+916 :                    tfs(ti);i=l;i=l;i=l;i=l;i     tfs(F);N};$         
+917 :                    fs(ti);i=l;i=l;i=l;i=l;i=     fs(F);N};$          
+918 :                    s(ti);i=l;i=l;i=l;i=l;i=i     s(F);N};$           
+919 :                    (ti);i=l;i=l;i=l;i=l;i=i(     (F);N};$            
+920 :                    ti);i=l;i=l;i=l;i=l;i=i(i     F);N};$             
+921 :F->ti               ti);i=l;i=l;i=l;i=l;i=i(i     F);N};$             
+922 : SAVESTATE:          39
+922 :                    ti);i=l;i=l;i=l;i=l;i=i(i     ti);N};$            
+923 :                    i);i=l;i=l;i=l;i=l;i=i(i,     i);N};$             
+924 :                    );i=l;i=l;i=l;i=l;i=i(i,i     );N};$              
+925 :                    ;i=l;i=l;i=l;i=l;i=i(i,i)     ;N};$               
+926 :                    i=l;i=l;i=l;i=l;i=i(i,i);     N};$                
+927 :N->i=E;N            i=l;i=l;i=l;i=l;i=i(i,i);     N};$                
+928 : SAVESTATE:          40
+928 :                    i=l;i=l;i=l;i=l;i=i(i,i);     i=E;N};$            
+929 :                    =l;i=l;i=l;i=l;i=i(i,i);i     =E;N};$             
+930 :                    l;i=l;i=l;i=l;i=i(i,i);i=     E;N};$              
+931 :E->l                l;i=l;i=l;i=l;i=i(i,i);i=     E;N};$              
+932 : SAVESTATE:          41
+932 :                    l;i=l;i=l;i=l;i=i(i,i);i=     l;N};$              
+933 :                    ;i=l;i=l;i=l;i=i(i,i);i=i     ;N};$               
+934 :                    i=l;i=l;i=l;i=i(i,i);i=i(     N};$                
+935 :N->i=E;N            i=l;i=l;i=l;i=i(i,i);i=i(     N};$                
+936 : SAVESTATE:          42
+936 :                    i=l;i=l;i=l;i=i(i,i);i=i(     i=E;N};$            
+937 :                    =l;i=l;i=l;i=i(i,i);i=i(i     =E;N};$             
+938 :                    l;i=l;i=l;i=i(i,i);i=i(i,     E;N};$              
+939 :E->l                l;i=l;i=l;i=i(i,i);i=i(i,     E;N};$              
+940 : SAVESTATE:          43
+940 :                    l;i=l;i=l;i=i(i,i);i=i(i,     l;N};$              
+941 :                    ;i=l;i=l;i=i(i,i);i=i(i,i     ;N};$               
+942 :                    i=l;i=l;i=i(i,i);i=i(i,i)     N};$                
+943 :N->i=E;N            i=l;i=l;i=i(i,i);i=i(i,i)     N};$                
+944 : SAVESTATE:          44
+944 :                    i=l;i=l;i=i(i,i);i=i(i,i)     i=E;N};$            
+945 :                    =l;i=l;i=i(i,i);i=i(i,i);     =E;N};$             
+946 :                    l;i=l;i=i(i,i);i=i(i,i);p     E;N};$              
+947 :E->l                l;i=l;i=i(i,i);i=i(i,i);p     E;N};$              
+948 : SAVESTATE:          45
+948 :                    l;i=l;i=i(i,i);i=i(i,i);p     l;N};$              
+949 :                    ;i=l;i=i(i,i);i=i(i,i);pl     ;N};$               
+950 :                    i=l;i=i(i,i);i=i(i,i);pl;     N};$                
+951 :N->i=E;N            i=l;i=i(i,i);i=i(i,i);pl;     N};$                
+952 : SAVESTATE:          46
+952 :                    i=l;i=i(i,i);i=i(i,i);pl;     i=E;N};$            
+953 :                    =l;i=i(i,i);i=i(i,i);pl;p     =E;N};$             
+954 :                    l;i=i(i,i);i=i(i,i);pl;pi     E;N};$              
+955 :E->l                l;i=i(i,i);i=i(i,i);pl;pi     E;N};$              
+956 : SAVESTATE:          47
+956 :                    l;i=i(i,i);i=i(i,i);pl;pi     l;N};$              
+957 :                    ;i=i(i,i);i=i(i,i);pl;pi;     ;N};$               
+958 :                    i=i(i,i);i=i(i,i);pl;pi;p     N};$                
+959 :N->i=E;N            i=i(i,i);i=i(i,i);pl;pi;p     N};$                
+960 : SAVESTATE:          48
+960 :                    i=i(i,i);i=i(i,i);pl;pi;p     i=E;N};$            
+961 :                    =i(i,i);i=i(i,i);pl;pi;pi     =E;N};$             
+962 :                    i(i,i);i=i(i,i);pl;pi;pi;     E;N};$              
+963 :E->i                i(i,i);i=i(i,i);pl;pi;pi;     E;N};$              
+964 : SAVESTATE:          49
+964 :                    i(i,i);i=i(i,i);pl;pi;pi;     i;N};$              
+965 :                    (i,i);i=i(i,i);pl;pi;pi;p     ;N};$               
+966 : TS_NOK/NS_NORULECHIN
+966 : RESSTATE            
+966 :                    i(i,i);i=i(i,i);pl;pi;pi;     E;N};$              
+967 :E->iM               i(i,i);i=i(i,i);pl;pi;pi;     E;N};$              
+968 : SAVESTATE:          49
+968 :                    i(i,i);i=i(i,i);pl;pi;pi;     iM;N};$             
+969 :                    (i,i);i=i(i,i);pl;pi;pi;p     M;N};$              
+970 : TNS_NORULECHAIN/NS_NORULE
+970 : RESSTATE            
+970 :                    i(i,i);i=i(i,i);pl;pi;pi;     E;N};$              
+971 :E->i(W)             i(i,i);i=i(i,i);pl;pi;pi;     E;N};$              
+972 : SAVESTATE:          49
+972 :                    i(i,i);i=i(i,i);pl;pi;pi;     i(W);N};$           
+973 :                    (i,i);i=i(i,i);pl;pi;pi;p     (W);N};$            
+974 :                    i,i);i=i(i,i);pl;pi;pi;ps     W);N};$             
+975 :W->i,W              i,i);i=i(i,i);pl;pi;pi;ps     W);N};$             
+976 : SAVESTATE:          50
+976 :                    i,i);i=i(i,i);pl;pi;pi;ps     i,W);N};$           
+977 :                    ,i);i=i(i,i);pl;pi;pi;ps(     ,W);N};$            
+978 :                    i);i=i(i,i);pl;pi;pi;ps(i     W);N};$             
+979 :W->i,W              i);i=i(i,i);pl;pi;pi;ps(i     W);N};$             
+980 : SAVESTATE:          51
+980 :                    i);i=i(i,i);pl;pi;pi;ps(i     i,W);N};$           
+981 :                    );i=i(i,i);pl;pi;pi;ps(i)     ,W);N};$            
+982 : TS_NOK/NS_NORULECHIN
+982 : RESSTATE            
+982 :                    i);i=i(i,i);pl;pi;pi;ps(i     W);N};$             
+983 :W->i                i);i=i(i,i);pl;pi;pi;ps(i     W);N};$             
+984 : SAVESTATE:          51
+984 :                    i);i=i(i,i);pl;pi;pi;ps(i     i);N};$             
+985 :                    );i=i(i,i);pl;pi;pi;ps(i)     );N};$              
+986 :                    ;i=i(i,i);pl;pi;pi;ps(i);     ;N};$               
+987 :                    i=i(i,i);pl;pi;pi;ps(i);r     N};$                
+988 :N->i=E;N            i=i(i,i);pl;pi;pi;ps(i);r     N};$                
+989 : SAVESTATE:          52
+989 :                    i=i(i,i);pl;pi;pi;ps(i);r     i=E;N};$            
+990 :                    =i(i,i);pl;pi;pi;ps(i);rl     =E;N};$             
+991 :                    i(i,i);pl;pi;pi;ps(i);rl;     E;N};$              
+992 :E->i                i(i,i);pl;pi;pi;ps(i);rl;     E;N};$              
+993 : SAVESTATE:          53
+993 :                    i(i,i);pl;pi;pi;ps(i);rl;     i;N};$              
+994 :                    (i,i);pl;pi;pi;ps(i);rl;}     ;N};$               
+995 : TS_NOK/NS_NORULECHIN
+995 : RESSTATE            
+995 :                    i(i,i);pl;pi;pi;ps(i);rl;     E;N};$              
+996 :E->iM               i(i,i);pl;pi;pi;ps(i);rl;     E;N};$              
+997 : SAVESTATE:          53
+997 :                    i(i,i);pl;pi;pi;ps(i);rl;     iM;N};$             
+998 :                    (i,i);pl;pi;pi;ps(i);rl;}     M;N};$              
+999 : TNS_NORULECHAIN/NS_NORULE
+999 : RESSTATE            
+999 :                    i(i,i);pl;pi;pi;ps(i);rl;     E;N};$              
+1000:E->i(W)             i(i,i);pl;pi;pi;ps(i);rl;     E;N};$              
+1001: SAVESTATE:          53
+1001:                    i(i,i);pl;pi;pi;ps(i);rl;     i(W);N};$           
+1002:                    (i,i);pl;pi;pi;ps(i);rl;}     (W);N};$            
+1003:                    i,i);pl;pi;pi;ps(i);rl;};     W);N};$             
+1004:W->i,W              i,i);pl;pi;pi;ps(i);rl;};     W);N};$             
+1005: SAVESTATE:          54
+1005:                    i,i);pl;pi;pi;ps(i);rl;};     i,W);N};$           
+1006:                    ,i);pl;pi;pi;ps(i);rl;};      ,W);N};$            
+1007:                    i);pl;pi;pi;ps(i);rl;};       W);N};$             
+1008:W->i,W              i);pl;pi;pi;ps(i);rl;};       W);N};$             
+1009: SAVESTATE:          55
+1009:                    i);pl;pi;pi;ps(i);rl;};       i,W);N};$           
+1010:                    );pl;pi;pi;ps(i);rl;};        ,W);N};$            
+1011: TS_NOK/NS_NORULECHIN
+1011: RESSTATE            
+1011:                    i);pl;pi;pi;ps(i);rl;};       W);N};$             
+1012:W->i                i);pl;pi;pi;ps(i);rl;};       W);N};$             
+1013: SAVESTATE:          55
+1013:                    i);pl;pi;pi;ps(i);rl;};       i);N};$             
+1014:                    );pl;pi;pi;ps(i);rl;};        );N};$              
+1015:                    ;pl;pi;pi;ps(i);rl;};         ;N};$               
+1016:                    pl;pi;pi;ps(i);rl;};          N};$                
+1017:N->pE;N             pl;pi;pi;ps(i);rl;};          N};$                
+1018: SAVESTATE:          56
+1018:                    pl;pi;pi;ps(i);rl;};          pE;N};$             
+1019:                    l;pi;pi;ps(i);rl;};           E;N};$              
+1020:E->l                l;pi;pi;ps(i);rl;};           E;N};$              
+1021: SAVESTATE:          57
+1021:                    l;pi;pi;ps(i);rl;};           l;N};$              
+1022:                    ;pi;pi;ps(i);rl;};            ;N};$               
+1023:                    pi;pi;ps(i);rl;};             N};$                
+1024:N->pE;N             pi;pi;ps(i);rl;};             N};$                
+1025: SAVESTATE:          58
+1025:                    pi;pi;ps(i);rl;};             pE;N};$             
+1026:                    i;pi;ps(i);rl;};              E;N};$              
+1027:E->i                i;pi;ps(i);rl;};              E;N};$              
+1028: SAVESTATE:          59
+1028:                    i;pi;ps(i);rl;};              i;N};$              
+1029:                    ;pi;ps(i);rl;};               ;N};$               
+1030:                    pi;ps(i);rl;};                N};$                
+1031:N->pE;N             pi;ps(i);rl;};                N};$                
+1032: SAVESTATE:          60
+1032:                    pi;ps(i);rl;};                pE;N};$             
+1033:                    i;ps(i);rl;};                 E;N};$              
+1034:E->i                i;ps(i);rl;};                 E;N};$              
+1035: SAVESTATE:          61
+1035:                    i;ps(i);rl;};                 i;N};$              
+1036:                    ;ps(i);rl;};                  ;N};$               
+1037:                    ps(i);rl;};                   N};$                
+1038:N->pE;N             ps(i);rl;};                   N};$                
+1039: SAVESTATE:          62
+1039:                    ps(i);rl;};                   pE;N};$             
+1040:                    s(i);rl;};                    E;N};$              
+1041:E->s(W)M            s(i);rl;};                    E;N};$              
+1042: SAVESTATE:          63
+1042:                    s(i);rl;};                    s(W)M;N};$          
+1043:                    (i);rl;};                     (W)M;N};$           
+1044:                    i);rl;};                      W)M;N};$            
+1045:W->i,W              i);rl;};                      W)M;N};$            
+1046: SAVESTATE:          64
+1046:                    i);rl;};                      i,W)M;N};$          
+1047:                    );rl;};                       ,W)M;N};$           
+1048: TS_NOK/NS_NORULECHIN
+1048: RESSTATE            
+1048:                    i);rl;};                      W)M;N};$            
+1049:W->i                i);rl;};                      W)M;N};$            
+1050: SAVESTATE:          64
+1050:                    i);rl;};                      i)M;N};$            
+1051:                    );rl;};                       )M;N};$             
+1052:                    ;rl;};                        M;N};$              
+1053: TNS_NORULECHAIN/NS_NORULE
+1053: RESSTATE            
+1053:                    i);rl;};                      W)M;N};$            
+1054: TNS_NORULECHAIN/NS_NORULE
+1054: RESSTATE            
+1054:                    s(i);rl;};                    E;N};$              
+1055:E->s(W)             s(i);rl;};                    E;N};$              
+1056: SAVESTATE:          63
+1056:                    s(i);rl;};                    s(W);N};$           
+1057:                    (i);rl;};                     (W);N};$            
+1058:                    i);rl;};                      W);N};$             
+1059:W->i,W              i);rl;};                      W);N};$             
+1060: SAVESTATE:          64
+1060:                    i);rl;};                      i,W);N};$           
+1061:                    );rl;};                       ,W);N};$            
+1062: TS_NOK/NS_NORULECHIN
+1062: RESSTATE            
+1062:                    i);rl;};                      W);N};$             
+1063:W->i                i);rl;};                      W);N};$             
+1064: SAVESTATE:          64
+1064:                    i);rl;};                      i);N};$             
+1065:                    );rl;};                       );N};$              
+1066:                    ;rl;};                        ;N};$               
+1067:                    rl;};                         N};$                
+1068:N->rE;              rl;};                         N};$                
+1069: SAVESTATE:          65
+1069:                    rl;};                         rE;};$              
+1070:                    l;};                          E;};$               
+1071:E->l                l;};                          E;};$               
+1072: SAVESTATE:          66
+1072:                    l;};                          l;};$               
+1073:                    ;};                           ;};$                
+1074:                    };                            };$                 
+1075:                    ;                             ;$                  
+1076:                                                  $                   
+1077: LENTA_END           
+1078: ------>LENTA_END    
+-------------------------------------------------------------------------------------
+0   :всего строк 165, синтаксический анализ выполнен без ошибок 
+0   : S->tfi(F){N};S      
+4   : F->ti,F             
+7   : F->ti               
+11  : N->dti;N            
+15  : N->i=E;N            
+17  : E->iM               
+18  : M->*E               
+19  : E->(E)              
+20  : E->iM               
+21  : M->+E               
+22  : E->i                
+25  : N->rE;              
+26  : E->i                
+30  : S->tfi(F){N};S      
+34  : F->ti,F             
+37  : F->ti               
+41  : N->dti;N            
+45  : N->tfa(F);N         
+49  : F->ti,F             
+52  : F->ti,F             
+55  : F->ti               
+59  : N->i=E;N            
+61  : E->a(W)M            
+63  : W->i,W              
+65  : W->l,W              
+67  : W->l                
+69  : M->+E               
+70  : E->i                
+72  : N->rE;              
+73  : E->i                
+77  : S->m{N};            
+79  : N->dti;N            
+83  : N->dti;N            
+87  : N->dti;N            
+91  : N->dti;N            
+95  : N->dti;N            
+99  : N->dti;N            
+103 : N->tfs(F);N         
+107 : F->ti               
+111 : N->i=E;N            
+113 : E->l                
+115 : N->i=E;N            
+117 : E->l                
+119 : N->i=E;N            
+121 : E->l                
+123 : N->i=E;N            
+125 : E->l                
+127 : N->i=E;N            
+129 : E->i(W)             
+131 : W->i,W              
+133 : W->i                
+136 : N->i=E;N            
+138 : E->i(W)             
+140 : W->i,W              
+142 : W->i                
+145 : N->pE;N             
+146 : E->l                
+148 : N->pE;N             
+149 : E->i                
+151 : N->pE;N             
+152 : E->i                
+154 : N->pE;N             
+155 : E->s(W)             
+157 : W->i                
+160 : N->rE;              
+161 : E->l                
+
+---------------Таблица лексем--------------------------------
+Лексема № строки № табл. лексем № табл. идент. 
+t       0        0              -              
+f       0        1              -              
+i       0        2              0              
+(       0        3              -              
+t       0        4              -              
+i       0        5              1              
+,       0        6              -              
+t       0        7              -              
+i       0        8              2              
+)       0        9              -              
+{       1        10             -              
+d       2        11             -              
+t       2        12             -              
+i       2        13             3              
+;       2        14             -              
+i       3        15             3              
+=       3        16             -              
+i       3        17             1              
+i       3        18             1              
+i       3        19             2              
+;       3        20             -              
+i       3        21             2              
+)       3        22             -              
+;       3        23             -              
+r       4        24             -              
+i       4        25             3              
+;       4        26             -              
+}       5        27             -              
+;       5        28             -              
+t       6        29             -              
+f       6        30             -              
+i       6        31             -              
+(       6        32             -              
+t       6        33             -              
+i       6        34             5              
+,       6        35             -              
+t       6        36             -              
+i       6        37             6              
+)       6        38             -              
+{       7        39             -              
+d       8        40             -              
+t       8        41             -              
+i       8        42             7              
+;       8        43             -              
+t       9        44             -              
+f       9        45             -              
+a       9        46             -              
+(       9        47             -              
+t       9        48             -              
+i       9        49             8              
+,       9        50             -              
+t       9        51             -              
+i       9        52             9              
+,       9        53             -              
+t       9        54             -              
+i       9        55             10             
+)       9        56             -              
+;       9        57             -              
+i       10       58             7              
+=       10       59             -              
+i       10       60             5              
+l       10       61             11             
+l       10       62             12             
+i       10       63             6              
+;       10       64             -              
+l       10       65             12             
+)       10       66             -              
++       10       67             -              
+i       10       68             6              
+;       10       69             -              
+r       11       70             -              
+i       11       71             7              
+;       11       72             -              
+}       12       73             -              
+;       12       74             -              
+m       13       75             -              
+{       14       76             -              
+d       15       77             -              
+t       15       78             -              
+i       15       79             13             
+;       15       80             -              
+d       16       81             -              
+t       16       82             -              
+i       16       83             14             
+;       16       84             -              
+d       17       85             -              
+t       17       86             -              
+i       17       87             15             
+;       17       88             -              
+d       18       89             -              
+t       18       90             -              
+i       18       91             16             
+;       18       92             -              
+d       19       93             -              
+t       19       94             -              
+i       19       95             17             
+;       19       96             -              
+d       20       97             -              
+t       20       98             -              
+i       20       99             18             
+;       20       100            -              
+t       21       101            -              
+f       21       102            -              
+s       21       103            -              
+(       21       104            -              
+t       21       105            -              
+i       21       106            19             
+)       21       107            -              
+;       21       108            -              
+i       22       109            13             
+=       22       110            -              
+l       22       111            -              
+;       22       112            -              
+i       23       113            14             
+=       23       114            -              
+l       23       115            -              
+;       23       116            -              
+i       24       117            16             
+=       24       118            -              
+l       24       119            -              
+;       24       120            -              
+i       25       121            17             
+=       25       122            -              
+l       25       123            -              
+;       25       124            -              
+i       26       125            15             
+=       26       126            -              
+i       26       127            13             
+i       26       128            14             
+@       26       129            0              
+;       26       130            -              
+i       27       131            18             
+=       27       132            -              
+i       27       133            16             
+i       27       134            17             
+@       27       135            4              
+;       27       136            -              
+p       28       137            -              
+l       28       138            20             
+;       28       139            -              
+p       29       140            -              
+i       29       141            15             
+;       29       142            -              
+p       30       143            -              
+i       30       144            18             
+;       30       145            -              
+p       31       146            -              
+s       31       147            -              
+(       31       148            -              
+i       31       149            18             
+)       31       150            -              
+;       31       151            -              
+r       32       152            -              
+l       32       153            21             
+;       32       154            -              
+}       33       155            -              
+;       33       156            -              
+
+
+      
